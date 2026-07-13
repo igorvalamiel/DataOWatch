@@ -1,0 +1,535 @@
+[00:00:00] ,match_start,0,Rota 66,Escolta,Equipe 1,Equipe 2
+[00:00:31] ,hero_spawn,0,Equipe 2,Lúcio,Lúcio,0,0
+[00:00:31] ,hero_spawn,0,Equipe 2,Kiriko,Kiriko,0,0
+[00:00:31] ,hero_spawn,0,Equipe 2,Bastion,Bastion,0,0
+[00:00:31] ,hero_spawn,0,Equipe 2,Torbjörn,Torbjörn,0,0
+[00:00:31] ,hero_spawn,0,Equipe 2,Doomfist,Doomfist,0,0
+[00:00:31] ,hero_spawn,0,Equipe 1,Moira,Moira,0,0
+[00:00:31] ,hero_spawn,0,Equipe 1,Ana,Ana,0,0
+[00:00:31] ,hero_spawn,0,Equipe 1,Soldado: 76,Soldado: 76,0,0
+[00:00:31] ,hero_spawn,0,Equipe 1,Sojourn,Sojourn,0,0
+[00:00:31] ,hero_spawn,0,Equipe 1,Roadhog,Roadhog,0,0
+[00:00:31] ,round_start,0,1,Equipe 2,0,0,0
+[00:01:16] ,setup_complete,0,1,239.99
+[00:01:28] ,kill,12.38,Equipe 2,Bastion,Bastion,Equipe 1,Ana,Ana,Disparo Primário,4,0,0
+[00:01:28] ,defensive_assist,12.80,Equipe 2,Kiriko,Kiriko,0
+[00:01:38] ,kill,22.56,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Sojourn,Sojourn,Habilidade 1,4.40,0,0
+[00:01:40] ,kill,23.90,Equipe 2,Bastion,Bastion,Equipe 1,Soldado: 76,Soldado: 76,Disparo Secundário,8.86,0,0
+[00:01:40] ,defensive_assist,24.05,Equipe 2,Kiriko,Kiriko,0
+[00:01:40] ,defensive_assist,24.06,Equipe 2,Lúcio,Lúcio,0
+[00:01:48] ,kill,32.06,Equipe 2,Doomfist,Doomfist,Equipe 1,Roadhog,Roadhog,Disparo Primário,20.34,0,0
+[00:01:48] ,offensive_assist,32.50,Equipe 2,Lúcio,Lúcio,0
+[00:01:48] ,offensive_assist,32.51,Equipe 2,Kiriko,Kiriko,0
+[00:01:48] ,defensive_assist,32.51,Equipe 2,Kiriko,Kiriko,0
+[00:01:50] ,kill,34.48,Equipe 2,Lúcio,Lúcio,Equipe 1,Moira,Moira,Corpo a corpo,25.66,0,0
+[00:01:50] ,defensive_assist,34.86,Equipe 2,Kiriko,Kiriko,0
+[00:02:07] ,payload_progress,51.42,1,Equipe 2,0,10.01
+[00:02:21] ,payload_progress,65.53,1,Equipe 2,0,20.02
+[00:02:41] ,kill,85.12,Equipe 2,Kiriko,Kiriko,Equipe 1,Ana,Ana,0,25.26,0,0
+[00:02:41] ,defensive_assist,85.53,Equipe 2,Kiriko,Kiriko,0
+[00:02:41] ,defensive_assist,85.56,Equipe 2,Lúcio,Lúcio,0
+[00:02:43] ,kill,86.91,Equipe 1,Sojourn,Sojourn,Equipe 2,Lúcio,Lúcio,Disparo Secundário,56.12,0,0
+[00:02:43] ,defensive_assist,87.00,Equipe 1,Moira,Moira,0
+[00:02:47] ,kill,91.29,Equipe 1,Sojourn,Sojourn,Equipe 2,Doomfist,Doomfist,Disparo Primário,1.46,0,0
+[00:02:47] ,defensive_assist,91.71,Equipe 1,Moira,Moira,0
+[00:02:52] ,kill,96.08,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Roadhog,Roadhog,Disparo Secundário,19.40,0,0
+[00:02:52] ,defensive_assist,96.35,Equipe 2,Kiriko,Kiriko,0
+[00:03:03] ,kill,107.52,Equipe 1,Soldado: 76,Soldado: 76,Equipe 2,Torbjörn,Torbjörn,Disparo Secundário,81.06,0,0
+[00:03:03] ,defensive_assist,107.66,Equipe 1,Moira,Moira,0
+[00:03:04] ,kill,108.32,Equipe 2,Bastion,Bastion,Equipe 1,Sojourn,Sojourn,Disparo Primário,6.14,0,0
+[00:03:04] ,defensive_assist,108.57,Equipe 2,Kiriko,Kiriko,0
+[00:03:10] ,kill,113.95,Equipe 2,Bastion,Bastion,Equipe 1,Moira,Moira,Disparo Primário,16.34,0,0
+[00:03:10] ,defensive_assist,114.22,Equipe 2,Kiriko,Kiriko,0
+[00:03:11] ,ultimate_charged,115.18,Equipe 2,Bastion,Bastion,0,1
+[00:03:14] ,mercy_rez,118.11,Equipe 1,Mercy,Mercy,Equipe 1,Moira,Moira
+[00:03:14] ,kill,118.33,Equipe 2,Bastion,Bastion,Equipe 1,Soldado: 76,Soldado: 76,Disparo Primário,12.21,0,0
+[00:03:14] ,defensive_assist,118.43,Equipe 2,Kiriko,Kiriko,0
+[00:03:14] ,offensive_assist,118.44,Equipe 2,Lúcio,Lúcio,0
+[00:03:14] ,defensive_assist,118.44,Equipe 2,Lúcio,Lúcio,0
+[00:03:17] ,ultimate_charged,120.94,Equipe 1,Moira,Moira,0,1
+[00:03:19] ,kill,123.21,Equipe 2,Bastion,Bastion,Equipe 1,Mercy,Mercy,Disparo Primário,4.21,0,0
+[00:03:19] ,defensive_assist,123.59,Equipe 2,Kiriko,Kiriko,0
+[00:03:19] ,defensive_assist,123.61,Equipe 2,Lúcio,Lúcio,0
+[00:03:21] ,kill,125.24,Equipe 2,Doomfist,Doomfist,Equipe 1,Moira,Moira,Disparo Secundário,8.52,0,0
+[00:03:21] ,defensive_assist,125.48,Equipe 2,Kiriko,Kiriko,0
+[00:03:28] ,ultimate_charged,131.98,Equipe 2,Doomfist,Doomfist,0,1
+[00:03:34] ,kill,138.43,Equipe 2,Doomfist,Doomfist,Equipe 1,Roadhog,Roadhog,Disparo Primário,4.12,0,0
+[00:03:34] ,offensive_assist,138.67,Equipe 2,Lúcio,Lúcio,0
+[00:03:34] ,defensive_assist,138.67,Equipe 2,Lúcio,Lúcio,0
+[00:03:36] ,payload_progress,140.75,1,Equipe 2,0,30.01
+[00:03:38] ,ultimate_charged,142.02,Equipe 2,Kiriko,Kiriko,0,1
+[00:03:41] ,ultimate_charged,144.91,Equipe 1,Sojourn,Sojourn,0,1
+[00:03:43] ,objective_updated,147.12,1,0,1
+[00:03:43] ,objective_captured,147.12,1,Equipe 2,1,0,0,242.87
+[00:03:46] ,kill,150.55,Equipe 2,Bastion,Bastion,Equipe 1,Mercy,Mercy,Disparo Primário,7.00,0,0
+[00:03:47] ,kill,151.20,Equipe 1,Sojourn,Sojourn,Equipe 2,Lúcio,Lúcio,Disparo Secundário,80.09,0,0
+[00:03:47] ,defensive_assist,151.44,Equipe 1,Soldado: 76,Soldado: 76,0
+[00:03:49] ,ultimate_charged,153.08,Equipe 1,Soldado: 76,Soldado: 76,0,1
+[00:03:52] ,kill,155.89,Equipe 1,Soldado: 76,Soldado: 76,Equipe 2,Bastion,Bastion,Disparo Primário,10.99,0,0
+[00:03:52] ,ultimate_start,155.94,Equipe 2,Doomfist,Doomfist,0,1
+[00:03:52] ,ultimate_start,155.99,Equipe 2,Kiriko,Kiriko,0,1
+[00:03:52] ,defensive_assist,156.07,Equipe 1,Moira,Moira,0
+[00:03:55] ,ultimate_end,159.46,Equipe 2,Doomfist,Doomfist,0,1
+[00:03:57] ,ultimate_start,161.13,Equipe 1,Moira,Moira,0,1
+[00:03:57] ,ultimate_start,161.14,Equipe 1,Soldado: 76,Soldado: 76,0,1
+[00:03:57] ,ultimate_start,161.14,Equipe 1,Sojourn,Sojourn,0,1
+[00:04:02] ,ultimate_end,166.68,Equipe 1,Moira,Moira,0,1
+[00:04:03] ,ultimate_end,167.08,Equipe 2,Kiriko,Kiriko,0,1
+[00:04:04] ,ultimate_end,168.33,Equipe 1,Soldado: 76,Soldado: 76,0,1
+[00:04:05] ,ultimate_charged,169.13,Equipe 2,Lúcio,Lúcio,0,1
+[00:04:06] ,ultimate_end,169.88,Equipe 1,Sojourn,Sojourn,0,1
+[00:04:06] ,kill,170.07,Equipe 2,Bastion,Bastion,Equipe 1,Sojourn,Sojourn,Disparo Primário,13.65,0,0
+[00:04:08] ,kill,172.68,Equipe 2,Doomfist,Doomfist,Equipe 1,Moira,Moira,Disparo Primário,7.51,0,0
+[00:04:09] ,offensive_assist,172.97,Equipe 2,Kiriko,Kiriko,0
+[00:04:09] ,defensive_assist,172.97,Equipe 2,Kiriko,Kiriko,0
+[00:04:12] ,kill,176.29,Equipe 2,Kiriko,Kiriko,Equipe 1,Soldado: 76,Soldado: 76,0,5.79,0,0
+[00:04:12] ,defensive_assist,176.73,Equipe 2,Kiriko,Kiriko,0
+[00:04:21] ,payload_progress,185.71,1,Equipe 2,1,40.02
+[00:04:33] ,kill,197.35,Equipe 2,Bastion,Bastion,Equipe 1,Sigma,Sigma,Disparo Primário,4.73,0,0
+[00:04:34] ,kill,198.81,Equipe 2,Bastion,Bastion,Equipe 1,Mercy,Mercy,Disparo Primário,5.69,0,0
+[00:04:45] ,kill,209.42,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Soldado: 76,Soldado: 76,Disparo Primário,40,0,0
+[00:04:58] ,kill,222.05,Equipe 2,Kiriko,Kiriko,Equipe 1,Genji,Genji,0,35.23,0,0
+[00:04:58] ,defensive_assist,222.35,Equipe 2,Kiriko,Kiriko,0
+[00:04:58] ,offensive_assist,222.40,Equipe 2,Lúcio,Lúcio,0
+[00:04:58] ,defensive_assist,222.40,Equipe 2,Lúcio,Lúcio,0
+[00:05:00] ,kill,224.32,Equipe 2,Bastion,Bastion,Equipe 1,Moira,Moira,Disparo Primário,0.22,0,0
+[00:05:00] ,defensive_assist,224.74,Equipe 2,Lúcio,Lúcio,0
+[00:05:09] ,ultimate_start,233.46,Equipe 2,Bastion,Bastion,0,1
+[00:05:12] ,payload_progress,236.37,1,Equipe 2,1,50.02
+[00:05:12] ,kill,236.73,Equipe 2,Bastion,Bastion,Equipe 1,Mercy,Mercy,Habilidade Suprema,30.55,0,0
+[00:05:13] ,offensive_assist,236.97,Equipe 2,Lúcio,Lúcio,0
+[00:05:13] ,defensive_assist,236.97,Equipe 2,Lúcio,Lúcio,0
+[00:05:14] ,kill,238.73,Equipe 2,Bastion,Bastion,Equipe 1,Soldado: 76,Soldado: 76,Habilidade Suprema,116.60,0,0
+[00:05:15] ,ultimate_end,239.46,Equipe 2,Bastion,Bastion,0,1
+[00:05:15] ,kill,239.46,Equipe 2,Kiriko,Kiriko,Equipe 1,Sigma,Sigma,0,14.01,0,0
+[00:05:29] ,payload_progress,253.77,1,Equipe 2,1,60.02
+[00:05:45] ,kill,269.90,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Genji,Genji,Habilidade 1,5.78,0,0
+[00:05:46] ,defensive_assist,270.30,Equipe 2,Kiriko,Kiriko,0
+[00:05:47] ,ultimate_charged,271.71,Equipe 2,Torbjörn,Torbjörn,0,1
+[00:05:48] ,kill,271.91,Equipe 2,Doomfist,Doomfist,Equipe 1,Moira,Moira,Disparo Primário,1.51,0,0
+[00:05:48] ,defensive_assist,272.18,Equipe 2,Kiriko,Kiriko,0
+[00:05:52] ,kill,276.04,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Soldado: 76,Soldado: 76,Habilidade 1,8.97,0,0
+[00:05:54] ,kill,278.23,Equipe 2,Bastion,Bastion,Equipe 1,Zenyatta,Zenyatta,Disparo Primário,11.73,0,0
+[00:05:54] ,offensive_assist,278.28,Equipe 2,Kiriko,Kiriko,0
+[00:05:54] ,defensive_assist,278.28,Equipe 2,Kiriko,Kiriko,0
+[00:05:59] ,ultimate_charged,283.89,Equipe 2,Doomfist,Doomfist,0,2
+[00:06:01] ,kill,285.19,Equipe 2,Bastion,Bastion,Equipe 1,Sigma,Sigma,Disparo Primário,5.55,0,0
+[00:06:15] ,payload_progress,299.08,1,Equipe 2,1,70.02
+[00:06:15] ,objective_updated,299.58,1,1,2
+[00:06:15] ,objective_captured,299.58,1,Equipe 2,2,0,0,180.47
+[00:06:25] ,ultimate_start,309.65,Equipe 2,Torbjörn,Torbjörn,0,1
+[00:06:26] ,ultimate_start,309.93,Equipe 2,Lúcio,Lúcio,0,1
+[00:06:26] ,ultimate_start,310.21,Equipe 2,Doomfist,Doomfist,0,2
+[00:06:27] ,kill,311.13,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Moira,Moira,Habilidade Suprema,3.83,0,0
+[00:06:27] ,offensive_assist,311.24,Equipe 2,Lúcio,Lúcio,0
+[00:06:27] ,defensive_assist,311.24,Equipe 2,Lúcio,Lúcio,0
+[00:06:27] ,ultimate_end,311.46,Equipe 2,Torbjörn,Torbjörn,0,1
+[00:06:29] ,ultimate_end,313.72,Equipe 2,Doomfist,Doomfist,0,2
+[00:06:30] ,kill,314.66,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Hanzo,Hanzo,Disparo Primário,15.54,0,0
+[00:06:31] ,offensive_assist,315.00,Equipe 2,Lúcio,Lúcio,0
+[00:06:31] ,defensive_assist,315.00,Equipe 2,Lúcio,Lúcio,0
+[00:06:32] ,ultimate_end,316.65,Equipe 2,Lúcio,Lúcio,0,1
+[00:06:34] ,kill,318.60,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Zenyatta,Zenyatta,Habilidade 1,2.70,0,0
+[00:06:39] ,kill,323.81,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Sojourn,Sojourn,Habilidade 1,4.50,0,0
+[00:06:40] ,ultimate_charged,324.66,Equipe 2,Kiriko,Kiriko,0,2
+[00:06:45] ,kill,329.22,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Sigma,Sigma,Disparo Primário,8.57,0,0
+[00:06:45] ,defensive_assist,329.52,Equipe 2,Kiriko,Kiriko,0
+[00:06:45] ,defensive_assist,329.54,Equipe 2,Lúcio,Lúcio,0
+[00:07:02] ,kill,346.53,Equipe 2,Bastion,Bastion,Equipe 1,Moira,Moira,Disparo Secundário,52.85,0,0
+[00:07:02] ,defensive_assist,346.93,Equipe 2,Kiriko,Kiriko,0
+[00:07:05] ,kill,349.08,Equipe 2,Lúcio,Lúcio,Equipe 1,Hanzo,Hanzo,Disparo Primário,8.30,0,0
+[00:07:05] ,offensive_assist,349.29,Equipe 2,Kiriko,Kiriko,0
+[00:07:05] ,defensive_assist,349.29,Equipe 2,Kiriko,Kiriko,0
+[00:07:06] ,payload_progress,350.71,1,Equipe 2,2,80.01
+[00:07:07] ,kill,351.64,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Sojourn,Sojourn,Habilidade 1,5.28,0,0
+[00:07:10] ,offensive_assist,354.94,Equipe 2,Lúcio,Lúcio,0
+[00:07:10] ,defensive_assist,354.94,Equipe 2,Lúcio,Lúcio,0
+[00:07:10] ,kill,354.94,Equipe 2,Kiriko,Kiriko,Equipe 1,Zenyatta,Zenyatta,0,36.25,0,0
+[00:07:30] ,ultimate_start,374.57,Equipe 2,Kiriko,Kiriko,0,2
+[00:07:32] ,kill,376.33,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Baptiste,Baptiste,Disparo Secundário,31.33,0,0
+[00:07:32] ,offensive_assist,376.57,Equipe 2,Kiriko,Kiriko,0
+[00:07:32] ,defensive_assist,376.57,Equipe 2,Kiriko,Kiriko,0
+[00:07:36] ,kill,379.99,Equipe 2,Bastion,Bastion,Equipe 1,Hanzo,Hanzo,Disparo Primário,2.44,0,0
+[00:07:36] ,offensive_assist,380.31,Equipe 2,Kiriko,Kiriko,0
+[00:07:36] ,ultimate_charged,380.52,Equipe 2,Bastion,Bastion,0,2
+[00:07:41] ,kill,385.65,Equipe 2,Doomfist,Doomfist,Equipe 1,Sigma,Sigma,Habilidade 1,13.39,0,0
+[00:07:41] ,ultimate_end,385.78,Equipe 2,Kiriko,Kiriko,0,2
+[00:07:42] ,offensive_assist,385.96,Equipe 2,Kiriko,Kiriko,0
+[00:07:42] ,defensive_assist,385.96,Equipe 2,Kiriko,Kiriko,0
+[00:07:42] ,offensive_assist,385.99,Equipe 2,Lúcio,Lúcio,0
+[00:07:42] ,defensive_assist,385.99,Equipe 2,Lúcio,Lúcio,0
+[00:07:42] ,kill,386.26,Equipe 2,Lúcio,Lúcio,Equipe 1,Sojourn,Sojourn,Disparo Primário,2.18,0,0
+[00:07:42] ,offensive_assist,386.44,Equipe 2,Kiriko,Kiriko,0
+[00:07:42] ,defensive_assist,386.44,Equipe 2,Kiriko,Kiriko,0
+[00:07:42] ,kill,386.52,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Zenyatta,Zenyatta,Habilidade 1,5.76,0,0
+[00:07:42] ,offensive_assist,386.88,Equipe 2,Kiriko,Kiriko,0
+[00:07:44] ,payload_progress,388.07,1,Equipe 2,2,90.02
+[00:07:58] ,ultimate_start,402.29,Equipe 2,Bastion,Bastion,0,2
+[00:08:01] ,kill,405.57,Equipe 2,Bastion,Bastion,Equipe 1,Symmetra,Symmetra,Habilidade Suprema,103.25,0,0
+[00:08:04] ,ultimate_end,408.33,Equipe 2,Bastion,Bastion,0,2
+[00:08:05] ,payload_progress,409.29,1,Equipe 2,3,0
+[00:08:05] ,objective_updated,409.29,1,2,3
+[00:08:05] ,player_stat,409.30,1,Equipe 2,Lúcio,Lúcio,20,3,2,2259.89,270,1896.14,2957.23,1505.74,938.64,2024.60,0,13,9,1,1,0,0,0,15,0,0,5,0.06,0,0,0,373,89,257,0,0,0.26,409.30
+[00:08:05] ,player_stat,409.30,1,Equipe 2,Kiriko,Kiriko,29,5,0,3131.54,135,2906.54,3398.99,1824.60,0,1952.21,0,23,9,2,4,0,0,0,24,0,0,10,0.16,0,0,0,164,63,93,0,0,0.40,409.30
+[00:08:05] ,player_stat,409.30,1,Equipe 2,Bastion,Bastion,34,18,1,6835.13,550.75,6147.58,0,1327.34,0,1837.35,0,0,0,2,2,0,0,2,25,0,0,27,0.08,0,0,0,899,347,500,0,0,0.41,409.30
+[00:08:05] ,player_stat,409.30,1,Equipe 2,Torbjörn,Torbjörn,32,13,1,7554.20,1166.50,6315.70,0,1518.95,0,2532.56,0,0,0,2,1,0,0,1,26,0,0,21,0.11,0,0,0,773,191,517,0,0,0.27,409.30
+[00:08:05] ,player_stat,409.30,1,Equipe 2,Doomfist,Doomfist,26,6,1,4418.78,195,4099.34,0,2120.59,0,3560.29,0,0,0,2,2,0,0,0,21,0,0,112,0.15,0,0,0,2475,758,1623,0,0,0.32,409.30
+[00:08:05] ,player_stat,409.30,1,Equipe 1,Baptiste,Moira,1,0,8,734.70,0,692.10,4568.44,2010.10,1221.71,3841.98,0,4,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,409.30
+[00:08:05] ,player_stat,409.30,1,Equipe 1,Zenyatta,Ana,0,0,2,112.50,0,112.50,174.38,93.26,39.38,593.26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,4,7,0,0,0.36,409.30
+[00:08:05] ,player_stat,409.30,1,Equipe 1,Junkrat,Soldado: 76,5,2,6,2924.87,0,2677.37,1010.20,1535.14,499.91,3060.79,0,1,0,1,1,0,0,0,3,0,0,17,0.10,0,0,0,339,167,172,0,0,0.49,409.30
+[00:08:05] ,player_stat,409.30,1,Equipe 1,Symmetra,Sojourn,3,3,3,3036.75,0,2593.50,0,780.29,0,1520.06,0,0,0,1,1,0,0,0,2,0,0,25,0.11,0,0,0,377,221,156,0,0,0.59,409.30
+[00:08:05] ,player_stat,409.30,1,Equipe 1,Sigma,Roadhog,0,0,3,1557.50,0,1557.50,179.74,1161.18,179.74,2961.18,0,0,0,0,0,0,0,0,0,0,0,37,0.12,0,0,0,963,305,658,0,0,0.32,409.30
+[00:08:05] ,round_end,409.30,1,Equipe 2,0,3,3,0,0,70.81
+[00:08:16] ,objective_updated,409.30,2,3,0
+[00:08:46] ,round_start,409.30,2,Equipe 1,0,3,0
+[00:09:31] ,setup_complete,409.30,2,239.99
+[00:09:50] ,kill,428.11,Equipe 1,Symmetra,Symmetra,Equipe 2,Lúcio,Lúcio,Disparo Secundário,81.63,0,0
+[00:09:50] ,defensive_assist,428.29,Equipe 1,Baptiste,Baptiste,0
+[00:09:51] ,offensive_assist,428.42,Equipe 1,Zenyatta,Zenyatta,0
+[00:09:51] ,defensive_assist,428.42,Equipe 1,Zenyatta,Zenyatta,0
+[00:09:54] ,kill,431.70,Equipe 1,Sigma,Sigma,Equipe 2,Kiriko,Kiriko,Disparo Primário,28.21,0,0
+[00:09:54] ,defensive_assist,432.05,Equipe 1,Baptiste,Baptiste,0
+[00:09:54] ,defensive_assist,432.14,Equipe 1,Zenyatta,Zenyatta,0
+[00:09:56] ,kill,433.41,Equipe 2,Bastion,Bastion,Equipe 1,Zenyatta,Zenyatta,Disparo Primário,3.36,0,0
+[00:09:56] ,defensive_assist,433.44,Equipe 2,Kiriko,Kiriko,0
+[00:10:05] ,offensive_assist,442.91,Equipe 2,Lúcio,Lúcio,0
+[00:10:05] ,kill,442.91,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Baptiste,Baptiste,Disparo Primário,49.02,0,0
+[00:10:05] ,kill,443.04,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Symmetra,Symmetra,Habilidade 1,8.50,0,0
+[00:10:06] ,offensive_assist,443.39,Equipe 2,Lúcio,Lúcio,0
+[00:10:17] ,kill,455.32,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Junkrat,Junkrat,Habilidade 1,3.63,0,0
+[00:10:21] ,kill,458.39,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Zenyatta,Zenyatta,Habilidade 1,3.25,0,0
+[00:10:23] ,kill,460.73,Equipe 2,Bastion,Bastion,Equipe 1,Sigma,Sigma,Disparo Primário,14.79,0,0
+[00:10:36] ,kill,474.15,Equipe 1,Symmetra,Symmetra,Equipe 2,Doomfist,Doomfist,Disparo Secundário,33.05,0,0
+[00:10:36] ,defensive_assist,474.36,Equipe 1,Baptiste,Baptiste,0
+[00:10:37] ,defensive_assist,474.45,Equipe 1,Zenyatta,Zenyatta,0
+[00:10:40] ,kill,477.43,Equipe 2,Bastion,Bastion,Equipe 1,Baptiste,Baptiste,Disparo Primário,2.27,0,0
+[00:10:40] ,defensive_assist,477.65,Equipe 2,Kiriko,Kiriko,0
+[00:10:44] ,kill,481.88,Equipe 2,Kiriko,Kiriko,Equipe 1,Symmetra,Symmetra,0,1.35,0,0
+[00:10:49] ,ultimate_charged,487.28,Equipe 2,Torbjörn,Torbjörn,0,2
+[00:10:50] ,kill,487.84,Equipe 2,Kiriko,Kiriko,Equipe 1,Junkrat,Junkrat,0,44.90,0,0
+[00:10:50] ,defensive_assist,487.99,Equipe 2,Kiriko,Kiriko,0
+[00:10:50] ,ultimate_start,488.05,Equipe 2,Torbjörn,Torbjörn,0,2
+[00:10:52] ,kill,489.92,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Sigma,Sigma,Habilidade Suprema,5.39,0,0
+[00:10:52] ,defensive_assist,490.34,Equipe 2,Kiriko,Kiriko,0
+[00:10:53] ,offensive_assist,490.37,Equipe 2,Lúcio,Lúcio,0
+[00:10:56] ,ultimate_end,493.54,Equipe 2,Torbjörn,Torbjörn,0,2
+[00:11:13] ,kill,510.91,Equipe 1,Baptiste,Baptiste,Equipe 2,Torbjörn,Torbjörn,Disparo Primário,17.61,0,0
+[00:11:13] ,offensive_assist,511.10,Equipe 1,Zenyatta,Zenyatta,0
+[00:11:13] ,defensive_assist,511.10,Equipe 1,Zenyatta,Zenyatta,0
+[00:11:26] ,kill,523.96,Equipe 2,Bastion,Bastion,Equipe 1,Zenyatta,Zenyatta,Disparo Secundário,54.64,0,0
+[00:11:26] ,defensive_assist,524.15,Equipe 2,Kiriko,Kiriko,0
+[00:11:30] ,kill,527.51,Equipe 1,Symmetra,Symmetra,Equipe 2,Lúcio,Lúcio,Disparo Secundário,6.75,0,0
+[00:11:30] ,offensive_assist,527.54,Equipe 1,Zenyatta,Zenyatta,0
+[00:11:31] ,kill,528.90,Equipe 1,Symmetra,Symmetra,Equipe 2,Doomfist,Doomfist,Habilidade 1,2.65,0,0
+[00:11:32] ,ultimate_charged,530.02,Equipe 2,Bastion,Bastion,0,3
+[00:11:35] ,ultimate_charged,533.31,Equipe 1,Baptiste,Baptiste,0,2
+[00:11:36] ,kill,533.81,Equipe 2,Kiriko,Kiriko,Equipe 1,Baptiste,Baptiste,0,41.57,0,0
+[00:11:50] ,ultimate_charged,547.53,Equipe 1,Zenyatta,Zenyatta,0,1
+[00:11:58] ,kill,555.76,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Zenyatta,Zenyatta,Disparo Secundário,77.76,0,0
+[00:11:58] ,defensive_assist,556.10,Equipe 2,Kiriko,Kiriko,0
+[00:12:06] ,kill,563.84,Equipe 1,Symmetra,Symmetra,Equipe 2,Kiriko,Kiriko,Habilidade 1,2.14,0,0
+[00:12:08] ,ultimate_charged,565.32,Equipe 1,Symmetra,Symmetra,0,2
+[00:12:08] ,ultimate_start,565.85,Equipe 1,Symmetra,Symmetra,0,2
+[00:12:14] ,ultimate_start,571.51,Equipe 2,Bastion,Bastion,0,3
+[00:12:16] ,ultimate_start,574.06,Equipe 1,Baptiste,Baptiste,0,2
+[00:12:17] ,kill,574.78,Equipe 2,Bastion,Bastion,Equipe 1,Symmetra,Symmetra,Habilidade Suprema,65.36,0,0
+[00:12:18] ,ultimate_start,576.01,Equipe 1,Zenyatta,Zenyatta,0,1
+[00:12:20] ,ultimate_end,577.49,Equipe 2,Bastion,Bastion,0,3
+[00:12:20] ,ultimate_end,578.07,Equipe 1,Symmetra,Symmetra,0,2
+[00:12:24] ,ultimate_end,582.00,Equipe 1,Zenyatta,Zenyatta,0,1
+[00:12:25] ,ultimate_charged,583.14,Equipe 2,Doomfist,Doomfist,0,3
+[00:12:25] ,ultimate_start,583.14,Equipe 2,Doomfist,Doomfist,0,3
+[00:12:27] ,ultimate_end,584.56,Equipe 1,Baptiste,Baptiste,0,2
+[00:12:29] ,ultimate_end,586.64,Equipe 2,Doomfist,Doomfist,0,3
+[00:12:32] ,kill,589.82,Equipe 2,Doomfist,Doomfist,Equipe 1,Baptiste,Baptiste,Disparo Secundário,15.34,0,0
+[00:12:32] ,offensive_assist,589.93,Equipe 2,Brigitte,Brigitte,0
+[00:12:32] ,defensive_assist,589.93,Equipe 2,Brigitte,Brigitte,0
+[00:12:38] ,kill,596.11,Equipe 2,Bastion,Bastion,Equipe 1,Zenyatta,Zenyatta,Disparo Primário,7.37,0,0
+[00:12:39] ,defensive_assist,596.51,Equipe 2,Brigitte,Brigitte,0
+[00:12:41] ,ultimate_charged,599.24,Equipe 2,Torbjörn,Torbjörn,0,3
+[00:12:43] ,kill,601.00,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Sigma,Sigma,Disparo Secundário,20.32,0,0
+[00:12:43] ,defensive_assist,601.21,Equipe 2,Brigitte,Brigitte,0
+[00:12:47] ,kill,604.66,Equipe 2,Bastion,Bastion,Equipe 1,Symmetra,Symmetra,Disparo Secundário,69.07,0,0
+[00:12:47] ,defensive_assist,604.98,Equipe 2,Brigitte,Brigitte,0
+[00:12:56] ,ultimate_charged,614.23,Equipe 1,Sigma,Sigma,0,1
+[00:12:58] ,ultimate_charged,616.16,Equipe 2,Kiriko,Kiriko,0,3
+[00:13:00] ,kill,617.52,Equipe 2,Torbjörn,Torbjörn,Equipe 1,Junkrat,Junkrat,Habilidade 1,9,0,0
+[00:13:02] ,kill,619.57,Equipe 2,Bastion,Bastion,Equipe 1,Lúcio,Lúcio,Disparo Primário,6.57,0,0
+[00:13:02] ,defensive_assist,619.95,Equipe 2,Kiriko,Kiriko,0
+[00:13:02] ,offensive_assist,620.03,Equipe 2,Brigitte,Brigitte,0
+[00:13:02] ,defensive_assist,620.03,Equipe 2,Brigitte,Brigitte,0
+[00:13:20] ,ultimate_start,637.46,Equipe 2,Torbjörn,Torbjörn,0,3
+[00:13:20] ,ultimate_start,637.68,Equipe 1,Sigma,Sigma,0,1
+[00:13:22] ,ultimate_start,640.04,Equipe 2,Kiriko,Kiriko,0,3
+[00:13:23] ,kill,640.42,Equipe 2,Bastion,Bastion,Equipe 1,Moira,Moira,Disparo Secundário,44.06,0,0
+[00:13:23] ,ultimate_end,640.53,Equipe 2,Kiriko,Kiriko,0,3
+[00:13:23] ,ultimate_start,640.91,Equipe 2,Kiriko,Kiriko,0,3
+[00:13:24] ,kill,641.39,Equipe 2,Bastion,Bastion,Equipe 1,Symmetra,Symmetra,Disparo Primário,4.86,0,0
+[00:13:24] ,ultimate_end,641.94,Equipe 1,Sigma,Sigma,0,1
+[00:13:25] ,ultimate_end,642.98,Equipe 2,Torbjörn,Torbjörn,0,3
+[00:13:31] ,player_stat,649.20,2,Equipe 2,Brigitte,Lúcio,23,3,4,3041.39,285,2574.89,3651.80,1780.86,1185.62,2765.53,0,13,12,1,1,0,0,0,18,0,0,9,0.07,0,0,0,483,132,323,0,0,0.29,649.20
+[00:13:31] ,player_stat,649.20,2,Equipe 2,Kiriko,Kiriko,35,8,2,4513.35,225,3894.35,4652.69,2472.74,0,3083.80,0,30,9,3,6,0,0,0,27,0,0,16,0.17,0,0,0,237,95,130,0,0,0.42,649.20
+[00:13:31] ,player_stat,649.20,2,Equipe 1,Moira,Ana,0,0,2,112.50,0,112.50,174.38,93.26,39.38,593.26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,4,7,0,0,0.36,649.20
+[00:13:31] ,player_stat,649.20,2,Equipe 1,Symmetra,Sojourn,3,3,3,3036.75,0,2593.50,0,780.29,0,1520.06,0,0,0,1,1,0,0,0,2,0,0,25,0.11,0,0,0,377,221,156,0,0,0.59,649.20
+[00:13:31] ,round_end,649.20,2,Equipe 1,0,3,0,0,0,0
+[00:13:31] ,match_end,649.20,2,0,3
+[00:13:31] ,player_stat,649.20,2,Equipe 2,Bastion,Bastion,48,28,1,12075.32,1540.72,9536.71,0,2156.19,0,2939.12,0,0,0,3,3,0,0,2,37,0,0,41,0.07,0,0,0,1499,574,772,0,0,0.43,649.20
+[00:13:31] ,player_stat,649.20,2,Equipe 2,Torbjörn,Torbjörn,50,21,2,14683.95,1950.09,11863.69,0,2153.09,0,4147.64,0,0,0,4,3,0,0,3,38,0,0,37,0.10,0,0,0,1423,374,922,0,0,0.29,649.20
+[00:13:31] ,player_stat,649.20,2,Equipe 2,Doomfist,Doomfist,37,7,3,8062.65,771.55,6482.17,0,3011.42,0,6111.63,0,0,0,3,3,0,0,0,31,0,0,154,0.12,0,0,0,4213,1288,2537,0,0,0.34,649.20
+[00:13:31] ,player_stat,649.20,2,Equipe 1,Lúcio,Moira,1,0,8,734.70,0,692.10,4568.44,2010.10,1221.71,3841.98,0,4,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,649.20
+[00:13:31] ,player_stat,649.20,2,Equipe 1,Mei,Soldado: 76,5,2,6,2924.87,0,2677.37,1010.20,1535.14,499.91,3060.79,0,1,0,1,1,0,0,0,3,0,0,17,0.10,0,0,0,339,167,172,0,0,0.49,649.20
+[00:13:31] ,player_stat,649.20,2,Equipe 1,Sigma,Roadhog,0,0,3,1557.50,0,1557.50,179.74,1161.18,179.74,2961.18,0,0,0,0,0,0,0,0,0,0,0,37,0.12,0,0,0,963,305,658,0,0,0.32,649.20
+[00:13:33] ,ultimate_end,649.20,Equipe 2,Kiriko,Kiriko,0,3
+[00:00:00] ,match_start,0,Blizzard World (Inverno),Híbrido,Equipe 1,Equipe 2
+[00:00:31] ,hero_spawn,0,Equipe 2,Moira,Moira,0,0
+[00:00:31] ,hero_spawn,0,Equipe 2,Mercy,Mercy,0,0
+[00:00:31] ,hero_spawn,0,Equipe 2,Genji,Genji,0,0
+[00:00:31] ,hero_spawn,0,Equipe 2,Junkrat,Junkrat,0,0
+[00:00:31] ,hero_spawn,0,Equipe 2,Ramattra,Ramattra,0,0
+[00:00:31] ,hero_spawn,0,Equipe 1,Kiriko,Kiriko,0,0
+[00:00:31] ,hero_spawn,0,Equipe 1,Baptiste,Baptiste,0,0
+[00:00:31] ,hero_spawn,0,Equipe 1,Sojourn,Sojourn,0,0
+[00:00:31] ,hero_spawn,0,Equipe 1,Mei,Mei,0,0
+[00:00:31] ,hero_spawn,0,Equipe 1,Ramattra,Ramattra,0,0
+[00:00:31] ,round_start,0,1,Equipe 2,0,0,0
+[00:01:16] ,setup_complete,0,1,239.99
+[00:01:42] ,kill,26.13,Equipe 1,Ramattra,Ramattra,Equipe 2,Genji,Genji,Habilidade 1,7,0,0
+[00:01:42] ,defensive_assist,26.34,Equipe 1,Kiriko,Kiriko,0
+[00:01:42] ,defensive_assist,26.35,Equipe 1,Baptiste,Baptiste,0
+[00:01:42] ,offensive_assist,26.38,Equipe 1,Mei,Mei,0
+[00:01:47] ,kill,31.07,Equipe 1,Mei,Mei,Equipe 2,Junkrat,Junkrat,Disparo Primário,3.59,0,0
+[00:01:47] ,defensive_assist,31.50,Equipe 1,Kiriko,Kiriko,0
+[00:01:47] ,defensive_assist,31.52,Equipe 1,Baptiste,Baptiste,0
+[00:01:49] ,mercy_rez,33.52,Equipe 2,Mercy,Mercy,Equipe 2,Genji,Genji
+[00:01:50] ,kill,34.40,Equipe 1,Sojourn,Sojourn,Equipe 2,Ramattra,Ramattra,Habilidade 2,10.92,0,0
+[00:01:50] ,kill,34.59,Equipe 1,Mei,Mei,Equipe 2,Mercy,Mercy,Disparo Primário,5.45,0,0
+[00:01:51] ,offensive_assist,34.80,Equipe 1,Kiriko,Kiriko,0
+[00:01:51] ,defensive_assist,34.80,Equipe 1,Kiriko,Kiriko,0
+[00:01:51] ,defensive_assist,34.80,Equipe 1,Kiriko,Kiriko,0
+[00:01:51] ,defensive_assist,34.82,Equipe 1,Baptiste,Baptiste,0
+[00:01:51] ,offensive_assist,34.86,Equipe 1,Mei,Mei,0
+[00:01:51] ,kill,35.25,Equipe 1,Ramattra,Ramattra,Equipe 2,Moira,Moira,Habilidade 1,36.52,0,0
+[00:01:51] ,defensive_assist,35.25,Equipe 1,Kiriko,Kiriko,0
+[00:01:51] ,defensive_assist,35.26,Equipe 1,Baptiste,Baptiste,0
+[00:01:51] ,offensive_assist,35.31,Equipe 1,Mei,Mei,0
+[00:01:56] ,kill,39.98,Equipe 1,Mei,Mei,Equipe 2,Genji,Genji,Disparo Secundário,36.38,0,0
+[00:01:56] ,defensive_assist,39.98,Equipe 1,Baptiste,Baptiste,0
+[00:01:56] ,defensive_assist,40.45,Equipe 1,Kiriko,Kiriko,0
+[00:02:37] ,kill,80.67,Equipe 1,Ramattra,Ramattra,Equipe 2,Ramattra,Ramattra,Habilidade 1,48.84,0,0
+[00:02:37] ,offensive_assist,80.96,Equipe 1,Kiriko,Kiriko,0
+[00:02:37] ,defensive_assist,80.96,Equipe 1,Kiriko,Kiriko,0
+[00:02:39] ,mercy_rez,83.23,Equipe 2,Mercy,Mercy,Equipe 2,Ramattra,Ramattra
+[00:02:39] ,kill,83.48,Equipe 1,Ramattra,Ramattra,Equipe 2,Mercy,Mercy,0,2.16,0,0
+[00:02:40] ,defensive_assist,83.77,Equipe 1,Kiriko,Kiriko,0
+[00:02:40] ,defensive_assist,83.79,Equipe 1,Baptiste,Baptiste,0
+[00:02:45] ,kill,88.84,Equipe 1,Sojourn,Sojourn,Equipe 2,Junkrat,Junkrat,Disparo Secundário,107.18,0,0
+[00:02:45] ,defensive_assist,88.94,Equipe 1,Kiriko,Kiriko,0
+[00:02:45] ,defensive_assist,88.96,Equipe 1,Baptiste,Baptiste,0
+[00:02:45] ,offensive_assist,89.32,Equipe 1,Mei,Mei,0
+[00:02:47] ,kill,90.86,Equipe 1,Ramattra,Ramattra,Equipe 2,Moira,Moira,Habilidade 1,14.13,0,0
+[00:02:47] ,defensive_assist,91.28,Equipe 1,Kiriko,Kiriko,0
+[00:02:47] ,defensive_assist,91.31,Equipe 1,Baptiste,Baptiste,0
+[00:02:51] ,kill,94.72,Equipe 1,Mei,Mei,Equipe 2,Ramattra,Ramattra,Disparo Primário,5.35,0,0
+[00:02:51] ,defensive_assist,95.05,Equipe 1,Kiriko,Kiriko,0
+[00:02:51] ,defensive_assist,95.07,Equipe 1,Baptiste,Baptiste,0
+[00:02:52] ,kill,96.09,Equipe 1,Sojourn,Sojourn,Equipe 2,Genji,Genji,Disparo Primário,1.20,0,0
+[00:02:52] ,defensive_assist,96.44,Equipe 1,Baptiste,Baptiste,0
+[00:02:52] ,defensive_assist,96.48,Equipe 1,Kiriko,Kiriko,0
+[00:03:25] ,ultimate_charged,129.00,Equipe 1,Mei,Mei,0,1
+[00:03:30] ,kill,133.68,Equipe 1,Ramattra,Ramattra,Equipe 2,Ramattra,Ramattra,Habilidade 1,45.85,0,0
+[00:03:30] ,offensive_assist,133.98,Equipe 1,Mei,Mei,0
+[00:03:30] ,defensive_assist,134.03,Equipe 1,Kiriko,Kiriko,0
+[00:03:30] ,defensive_assist,134.04,Equipe 1,Baptiste,Baptiste,0
+[00:03:30] ,ultimate_charged,134.11,Equipe 2,Junkrat,Junkrat,0,1
+[00:03:31] ,ultimate_charged,134.67,Equipe 1,Ramattra,Ramattra,0,1
+[00:03:32] ,mercy_rez,136.11,Equipe 2,Mercy,Mercy,Equipe 2,Ramattra,Ramattra
+[00:03:33] ,ultimate_start,136.99,Equipe 2,Junkrat,Junkrat,0,1
+[00:03:34] ,kill,138.09,Equipe 1,Sojourn,Sojourn,Equipe 2,Mercy,Mercy,Disparo Primário,4.06,0,0
+[00:03:34] ,offensive_assist,138.29,Equipe 1,Kiriko,Kiriko,0
+[00:03:34] ,defensive_assist,138.29,Equipe 1,Kiriko,Kiriko,0
+[00:03:34] ,defensive_assist,138.30,Equipe 1,Baptiste,Baptiste,0
+[00:03:34] ,ultimate_end,138.48,Equipe 2,Junkrat,Junkrat,0,1
+[00:03:35] ,ultimate_start,138.64,Equipe 1,Ramattra,Ramattra,0,1
+[00:03:36] ,kill,140.27,Equipe 1,Mei,Mei,Equipe 2,Moira,Moira,Corpo a corpo,26.27,0,0
+[00:03:36] ,defensive_assist,140.62,Equipe 1,Kiriko,Kiriko,0
+[00:03:37] ,defensive_assist,140.67,Equipe 1,Baptiste,Baptiste,0
+[00:03:37] ,kill,141.23,Equipe 1,Kiriko,Kiriko,Equipe 2,Sombra,Sombra,0,49.77,0,0
+[00:03:37] ,ultimate_charged,141.46,Equipe 2,Ramattra,Ramattra,0,1
+[00:03:37] ,offensive_assist,141.55,Equipe 1,Mei,Mei,0
+[00:03:38] ,defensive_assist,141.63,Equipe 1,Baptiste,Baptiste,0
+[00:03:38] ,ultimate_charged,141.74,Equipe 1,Kiriko,Kiriko,0,1
+[00:03:38] ,kill,142.56,Equipe 1,Sojourn,Sojourn,Equipe 2,Junkrat,Junkrat,Disparo Secundário,97.31,True,0
+[00:03:38] ,ultimate_charged,142.56,Equipe 1,Sojourn,Sojourn,0,1
+[00:03:39] ,offensive_assist,142.96,Equipe 1,Mei,Mei,0
+[00:03:39] ,defensive_assist,143.01,Equipe 1,Kiriko,Kiriko,0
+[00:03:39] ,defensive_assist,143.04,Equipe 1,Baptiste,Baptiste,0
+[00:03:40] ,ultimate_end,144.37,Equipe 1,Ramattra,Ramattra,0,1
+[00:03:42] ,kill,146.40,Equipe 1,Baptiste,Baptiste,Equipe 2,Ramattra,Ramattra,Disparo Primário,10.38,0,0
+[00:03:43] ,offensive_assist,146.64,Equipe 1,Ramattra,Ramattra,0
+[00:03:43] ,offensive_assist,146.72,Equipe 1,Mei,Mei,0
+[00:03:43] ,defensive_assist,146.75,Equipe 1,Kiriko,Kiriko,0
+[00:03:43] ,defensive_assist,146.77,Equipe 1,Baptiste,Baptiste,0
+[00:04:18] ,ultimate_start,182.02,Equipe 2,Ramattra,Ramattra,0,1
+[00:04:20] ,ultimate_start,183.94,Equipe 1,Kiriko,Kiriko,0,1
+[00:04:23] ,kill,186.96,Equipe 2,Ramattra,Ramattra,Equipe 1,Baptiste,Baptiste,Habilidade Suprema,30.48,0,0
+[00:04:23] ,defensive_assist,187.19,Equipe 2,Baptiste,Baptiste,0
+[00:04:24] ,kill,187.94,Equipe 1,Sojourn,Sojourn,Equipe 2,Baptiste,Baptiste,Disparo Primário,7.80,0,0
+[00:04:24] ,offensive_assist,188.15,Equipe 1,Kiriko,Kiriko,0
+[00:04:24] ,defensive_assist,188.16,Equipe 1,Baptiste,Baptiste,0
+[00:04:24] ,ultimate_start,188.53,Equipe 1,Mei,Mei,0,1
+[00:04:25] ,kill,188.77,Equipe 2,Ramattra,Ramattra,Equipe 1,Ramattra,Ramattra,Habilidade Suprema,34.23,0,0
+[00:04:25] ,defensive_assist,188.99,Equipe 2,Moira,Moira,0
+[00:04:25] ,defensive_assist,189.07,Equipe 2,Baptiste,Baptiste,0
+[00:04:25] ,kill,189.31,Equipe 2,Ramattra,Ramattra,Equipe 1,Sojourn,Sojourn,Habilidade Suprema,2.14,0,0
+[00:04:25] ,defensive_assist,189.46,Equipe 2,Moira,Moira,0
+[00:04:25] ,defensive_assist,189.55,Equipe 2,Baptiste,Baptiste,0
+[00:04:28] ,kill,191.99,Equipe 2,Hanzo,Hanzo,Equipe 1,Kiriko,Kiriko,Disparo Primário,62.84,0,0
+[00:04:28] ,defensive_assist,192.26,Equipe 2,Moira,Moira,0
+[00:04:28] ,defensive_assist,192.37,Equipe 2,Baptiste,Baptiste,0
+[00:04:28] ,kill,192.55,Equipe 1,Mei,Mei,Equipe 2,Moira,Moira,Disparo Secundário,21.70,0,0
+[00:04:29] ,offensive_assist,192.85,Equipe 1,Kiriko,Kiriko,0
+[00:04:29] ,defensive_assist,192.85,Equipe 1,Kiriko,Kiriko,0
+[00:04:29] ,defensive_assist,192.87,Equipe 1,Baptiste,Baptiste,0
+[00:04:29] ,ultimate_end,192.90,Equipe 2,Ramattra,Ramattra,0,1
+[00:04:29] ,kill,193.25,Equipe 1,Mei,Mei,Equipe 2,Sombra,Sombra,Habilidade Suprema,1.80,0,0
+[00:04:29] ,offensive_assist,193.32,Equipe 1,Kiriko,Kiriko,0
+[00:04:29] ,defensive_assist,193.32,Equipe 1,Kiriko,Kiriko,0
+[00:04:31] ,ultimate_end,194.82,Equipe 1,Kiriko,Kiriko,0,1
+[00:04:31] ,ultimate_end,194.90,Equipe 1,Mei,Mei,0,1
+[00:04:35] ,kill,199.06,Equipe 2,Hanzo,Hanzo,Equipe 1,Mei,Mei,Disparo Primário,122,0,0
+[00:04:35] ,offensive_assist,199.35,Equipe 2,Ramattra,Ramattra,0
+[00:04:40] ,point_progress,204.60,1,Equipe 2,0,33.40
+[00:04:46] ,point_progress,210.15,1,Equipe 2,0,66.71
+[00:04:52] ,objective_updated,215.71,1,0,1
+[00:04:52] ,objective_captured,215.71,1,Equipe 2,1,0,0,174.31
+[00:05:11] ,ultimate_start,234.69,Equipe 1,Sojourn,Sojourn,0,1
+[00:05:11] ,ultimate_start,234.80,Equipe 1,Baptiste,Baptiste,0,0
+[00:05:11] ,payload_progress,235.61,1,Equipe 2,1,10.03
+[00:05:19] ,kill,242.87,Equipe 2,Ramattra,Ramattra,Equipe 1,Baptiste,Baptiste,Habilidade 1,42.40,0,0
+[00:05:19] ,defensive_assist,243.03,Equipe 2,Moira,Moira,0
+[00:05:19] ,defensive_assist,243.11,Equipe 2,Baptiste,Baptiste,0
+[00:05:19] ,ultimate_end,243.43,Equipe 1,Sojourn,Sojourn,0,1
+[00:05:21] ,ultimate_end,245.31,Equipe 1,Baptiste,Baptiste,0,0
+[00:05:23] ,kill,247.19,Equipe 1,Mei,Mei,Equipe 2,Baptiste,Baptiste,Disparo Secundário,74.86,0,0
+[00:05:23] ,defensive_assist,247.42,Equipe 1,Baptiste,Baptiste,0
+[00:05:33] ,kill,257.26,Equipe 2,Sombra,Sombra,Equipe 1,Kiriko,Kiriko,Disparo Primário,10.58,True,0
+[00:05:40] ,ultimate_charged,263.74,Equipe 2,Hanzo,Hanzo,0,2
+[00:05:40] ,ultimate_start,264.60,Equipe 2,Hanzo,Hanzo,0,2
+[00:05:41] ,ultimate_end,265.60,Equipe 2,Hanzo,Hanzo,0,2
+[00:05:44] ,kill,268.43,Equipe 1,Sojourn,Sojourn,Equipe 2,Moira,Moira,Disparo Primário,5,0,0
+[00:05:46] ,ultimate_charged,270.06,Equipe 2,Moira,Moira,0,1
+[00:05:46] ,kill,270.23,Equipe 1,Ramattra,Ramattra,Equipe 2,Zenyatta,Zenyatta,Habilidade 1,21,0,0
+[00:05:54] ,kill,278.34,Equipe 2,Hanzo,Hanzo,Equipe 1,Sojourn,Sojourn,Habilidade 2,150,True,0
+[00:05:55] ,kill,279.29,Equipe 1,Mei,Mei,Equipe 2,Hanzo,Hanzo,Disparo Secundário,66.90,0,0
+[00:05:56] ,kill,279.96,Equipe 2,Ramattra,Ramattra,Equipe 1,Mei,Mei,Habilidade 1,34,0,0
+[00:06:05] ,kill,289.30,Equipe 2,Ramattra,Ramattra,Equipe 1,Moira,Moira,0,3.23,0,0
+[00:06:07] ,ultimate_charged,291.14,Equipe 1,Ramattra,Ramattra,0,2
+[00:06:22] ,kill,306.07,Equipe 2,Ramattra,Ramattra,Equipe 1,Kiriko,Kiriko,0,2.28,0,0
+[00:06:26] ,kill,310.00,Equipe 2,Ramattra,Ramattra,Equipe 1,Ramattra,Ramattra,Habilidade 1,11.95,0,0
+[00:06:26] ,defensive_assist,310.24,Equipe 2,Moira,Moira,0
+[00:06:26] ,defensive_assist,310.26,Equipe 2,Zenyatta,Zenyatta,0
+[00:06:28] ,ultimate_charged,311.94,Equipe 2,Sombra,Sombra,0,1
+[00:06:35] ,payload_progress,319.55,1,Equipe 2,1,20.02
+[00:06:46] ,payload_progress,330.35,1,Equipe 2,1,30.03
+[00:06:47] ,ultimate_charged,330.94,Equipe 2,Ramattra,Ramattra,0,2
+[00:06:55] ,ultimate_start,338.81,Equipe 2,Ramattra,Ramattra,0,2
+[00:06:55] ,ultimate_start,338.81,Equipe 1,Ramattra,Ramattra,0,2
+[00:06:56] ,payload_progress,340.68,1,Equipe 2,1,40.02
+[00:06:59] ,ultimate_start,342.92,Equipe 2,Sombra,Sombra,0,1
+[00:06:59] ,ultimate_end,343.37,Equipe 2,Ramattra,Ramattra,0,2
+[00:07:00] ,kill,344.06,Equipe 1,Sojourn,Sojourn,Equipe 2,Zenyatta,Zenyatta,Disparo Primário,6.50,0,0
+[00:07:00] ,offensive_assist,344.23,Equipe 1,Mei,Mei,0
+[00:07:00] ,defensive_assist,344.25,Equipe 1,Baptiste,Baptiste,0
+[00:07:00] ,defensive_assist,344.27,Equipe 1,Moira,Moira,0
+[00:07:04] ,ultimate_end,347.91,Equipe 2,Sombra,Sombra,0,1
+[00:07:04] ,ultimate_end,348.47,Equipe 1,Ramattra,Ramattra,0,2
+[00:07:07] ,ultimate_start,351.63,Equipe 1,Mei,Mei,0,1
+[00:07:12] ,kill,356.34,Equipe 1,Sojourn,Sojourn,Equipe 2,Ramattra,Ramattra,Disparo Secundário,23.40,0,0
+[00:07:12] ,offensive_assist,356.42,Equipe 1,Ramattra,Ramattra,0
+[00:07:12] ,defensive_assist,356.46,Equipe 1,Baptiste,Baptiste,0
+[00:07:12] ,offensive_assist,356.47,Equipe 1,Mei,Mei,0
+[00:07:12] ,defensive_assist,356.49,Equipe 1,Moira,Moira,0
+[00:07:14] ,ultimate_end,358.10,Equipe 1,Mei,Mei,0,1
+[00:07:16] ,kill,360.50,Equipe 1,Mei,Mei,Equipe 2,Moira,Moira,Disparo Secundário,56.39,0,0
+[00:07:16] ,defensive_assist,360.70,Equipe 1,Moira,Moira,0
+[00:07:23] ,kill,366.71,Equipe 1,Ramattra,Ramattra,Equipe 2,Hanzo,Hanzo,Habilidade 1,59.55,0,0
+[00:07:23] ,defensive_assist,366.77,Equipe 1,Baptiste,Baptiste,0
+[00:07:35] ,kill,379.06,Equipe 1,Ramattra,Ramattra,Equipe 2,Sombra,Sombra,Corpo a corpo,3.41,0,0
+[00:07:35] ,defensive_assist,379.47,Equipe 1,Baptiste,Baptiste,0
+[00:07:46] ,player_stat,390.06,1,Equipe 2,Moira,Moira,2,0,6,225.43,2.08,223.35,2627.96,581.77,311.91,1937.35,0,5,0,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,390.06
+[00:07:46] ,player_stat,390.06,1,Equipe 2,Zenyatta,Mercy,0,0,3,0,0,0,306.78,280.64,13.94,969.58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,390.06
+[00:07:46] ,player_stat,390.06,1,Equipe 2,Hanzo,Junkrat,0,0,3,2880.47,677.63,2202.84,0,152.59,0,902.59,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,26,10,13,0,0,0.43,390.06
+[00:07:46] ,player_stat,390.06,1,Equipe 1,Baptiste,Kiriko,7,1,3,1615.77,320,1295.77,2918.96,1902.44,0,2588.66,0,19,6,1,2,0,0,0,7,0,0,5,0.25,0,0,0,39,20,14,0,0,0.59,390.06
+[00:07:46] ,player_stat,390.06,1,Equipe 1,Moira,Baptiste,2,1,2,445.29,90,355.29,4045.25,948.98,398.12,1478.61,0,19,0,1,1,0,0,0,2,0,0,2,0.14,0,0,0,24,14,8,0,0,0.64,390.06
+[00:07:46] ,player_stat,390.06,1,Equipe 1,Sojourn,Sojourn,24,9,2,5187.61,708.12,4359.49,0,1056.32,0,1546.44,0,0,0,1,1,0,0,0,22,0,0,61,0.18,0,0,0,656,332,254,0,0,0.57,390.06
+[00:07:46] ,player_stat,390.06,1,Equipe 1,Mei,Mei,24,10,2,10285.32,119.42,3539.82,0,1628.44,892.16,2247.64,873.92,0,10,2,2,0,0,0,23,0,0,0,0,0,0,0,350,263,81,0,0,0.76,390.06
+[00:07:46] ,player_stat,390.06,1,Equipe 1,Ramattra,Ramattra,24,9,2,6848.39,806.52,6036.87,0,3413.72,0,5850.02,1315.07,0,2,2,2,0,0,0,20,0,0,72,0.24,0,0,0,649,305,260,0,0,0.54,390.06
+[00:07:46] ,round_end,390.06,1,Equipe 2,0,1,1,0,0,0
+[00:07:46] ,player_stat,390.06,1,Equipe 2,Sombra,Genji,0,0,3,1358.31,131,1227.31,0,223.22,0,973.22,0,0,0,0,0,0,0,0,0,0,0,3,0.10,0,0,0,69,31,35,0,0,0.47,390.06
+[00:07:46] ,player_stat,390.06,1,Equipe 2,Orisa,Ramattra,10,8,6,7399.49,963.28,6436.21,0,2434.08,0,7387.85,2115.82,0,1,2,2,0,0,2,9,0,0,70,0.26,0,0,0,610,273,257,0,0,0.52,390.06
+[00:07:57] ,objective_updated,390.06,2,1,0
+[00:08:27] ,round_start,390.06,2,Equipe 1,0,1,0
+[00:09:12] ,setup_complete,390.06,2,239.99
+[00:09:44] ,kill,421.32,Equipe 1,Ramattra,Ramattra,Equipe 2,Zenyatta,Zenyatta,Habilidade 1,44.45,0,0
+[00:09:44] ,defensive_assist,421.32,Equipe 1,Baptiste,Baptiste,0
+[00:09:44] ,defensive_assist,421.76,Equipe 1,Moira,Moira,0
+[00:09:47] ,kill,424.61,Equipe 1,Sojourn,Sojourn,Equipe 2,Moira,Moira,Disparo Primário,1.39,0,0
+[00:09:47] ,defensive_assist,424.61,Equipe 1,Moira,Moira,0
+[00:09:47] ,defensive_assist,425.06,Equipe 1,Baptiste,Baptiste,0
+[00:09:51] ,kill,428.79,Equipe 1,Sojourn,Sojourn,Equipe 2,Orisa,Orisa,Disparo Secundário,65.60,0,0
+[00:09:51] ,defensive_assist,428.80,Equipe 1,Baptiste,Baptiste,0
+[00:09:51] ,offensive_assist,428.82,Equipe 1,Mei,Mei,0
+[00:09:51] ,defensive_assist,428.84,Equipe 1,Moira,Moira,0
+[00:09:56] ,point_progress,433.95,2,Equipe 1,0,33.40
+[00:10:01] ,point_progress,438.11,2,Equipe 1,0,66.68
+[00:10:05] ,point_progress,442.27,2,Equipe 1,0,99.96
+[00:10:05] ,objective_updated,442.29,2,0,1
+[00:10:05] ,objective_captured,442.29,2,Equipe 1,1,0,0,337.74
+[00:10:27] ,kill,464.60,Equipe 1,Mei,Mei,Equipe 2,Zenyatta,Zenyatta,Disparo Primário,4.38,0,0
+[00:10:27] ,defensive_assist,465.00,Equipe 1,Baptiste,Baptiste,0
+[00:10:27] ,defensive_assist,465.03,Equipe 1,Moira,Moira,0
+[00:10:28] ,kill,465.38,Equipe 2,Sombra,Sombra,Equipe 1,Baptiste,Baptiste,Disparo Primário,2.74,0,0
+[00:10:28] ,offensive_assist,465.43,Equipe 2,Zenyatta,Zenyatta,0
+[00:10:28] ,defensive_assist,465.43,Equipe 2,Zenyatta,Zenyatta,0
+[00:10:30] ,kill,468.05,Equipe 2,Orisa,Orisa,Equipe 1,Moira,Moira,Corpo a corpo,38.72,0,0
+[00:10:31] ,defensive_assist,468.18,Equipe 2,Moira,Moira,0
+[00:10:32] ,kill,469.83,Equipe 1,Ramattra,Ramattra,Equipe 2,Moira,Moira,0,2.53,0,0
+[00:10:33] ,defensive_assist,470.16,Equipe 1,Baptiste,Baptiste,0
+[00:10:34] ,kill,471.52,Equipe 2,Hanzo,Hanzo,Equipe 1,Ramattra,Ramattra,Disparo Primário,56.40,0,0
+[00:10:34] ,kill,471.89,Equipe 1,Sojourn,Sojourn,Equipe 2,Hanzo,Hanzo,Disparo Secundário,12.35,0,0
+[00:10:34] ,defensive_assist,471.94,Equipe 2,Moira,Moira,0
+[00:10:34] ,offensive_assist,471.95,Equipe 2,Sombra,Sombra,0
+[00:10:34] ,offensive_assist,471.99,Equipe 1,Ramattra,Ramattra,0
+[00:10:34] ,defensive_assist,472.05,Equipe 1,Baptiste,Baptiste,0
+[00:10:38] ,kill,475.68,Equipe 1,Sojourn,Sojourn,Equipe 2,Orisa,Orisa,Disparo Secundário,72.13,0,0
+[00:10:39] ,kill,476.83,Equipe 2,Sombra,Sombra,Equipe 1,Sojourn,Sojourn,Disparo Primário,2.76,0,0
+[00:10:40] ,offensive_assist,477.20,Equipe 2,Orisa,Orisa,0
+[00:10:40] ,kill,477.54,Equipe 1,Mei,Mei,Equipe 2,Sombra,Sombra,Disparo Secundário,29.41,0,0
+[00:10:40] ,offensive_assist,477.65,Equipe 1,Ramattra,Ramattra,0
+[00:10:43] ,payload_progress,480.89,2,Equipe 1,1,10.02
+[00:10:57] ,payload_progress,494.58,2,Equipe 1,1,20.01
+[00:11:09] ,payload_progress,507.07,2,Equipe 1,1,30.02
+[00:11:21] ,kill,518.31,Equipe 1,Ramattra,Ramattra,Equipe 2,Baptiste,Baptiste,Habilidade 1,51.52,0,0
+[00:11:21] ,defensive_assist,518.65,Equipe 1,Moira,Moira,0
+[00:11:22] ,ultimate_charged,519.11,Equipe 2,Orisa,Orisa,0,3
+[00:11:22] ,kill,519.54,Equipe 1,Ramattra,Ramattra,Equipe 2,Moira,Moira,Habilidade 1,35.26,0,0
+[00:11:22] ,defensive_assist,519.58,Equipe 1,Moira,Moira,0
+[00:11:28] ,kill,525.70,Equipe 1,Ramattra,Ramattra,Equipe 2,Sombra,Sombra,Habilidade 2,1.90,0,0
+[00:11:28] ,defensive_assist,526.09,Equipe 1,Baptiste,Baptiste,0
+[00:11:37] ,ultimate_charged,534.38,Equipe 2,Hanzo,Hanzo,0,3
+[00:11:37] ,kill,535.04,Equipe 1,Ramattra,Ramattra,Equipe 2,Hanzo,Hanzo,0,3.84,0,0
+[00:11:37] ,defensive_assist,535.09,Equipe 1,Moira,Moira,0
+[00:11:38] ,defensive_assist,535.46,Equipe 1,Baptiste,Baptiste,0
+[00:11:38] ,payload_progress,535.84,2,Equipe 1,1,40.02
+[00:11:40] ,player_stat,537.47,2,Equipe 2,Moira,Moira,3,0,9,298.43,42.08,256.35,3551.58,770.72,400.71,2801.31,0,7,0,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,537.47
+[00:11:40] ,player_stat,537.47,2,Equipe 1,Baptiste,Kiriko,7,1,3,1615.77,320,1295.77,2918.96,1902.44,0,2588.66,0,19,6,1,2,0,0,0,7,0,0,5,0.25,0,0,0,39,20,14,0,0,0.59,537.47
+[00:11:40] ,player_stat,537.47,2,Equipe 1,Sojourn,Sojourn,35,13,3,7000.39,708.12,6112.15,0,1401.11,0,2116.23,0,0,0,1,1,0,0,0,31,0,0,89,0.19,0,0,0,895,479,338,0,0,0.59,537.47
+[00:11:40] ,player_stat,537.47,2,Equipe 1,Mei,Mei,30,12,2,13143.01,119.42,4552.51,0,2041.66,1010.14,2700.86,1278.92,0,11,2,2,0,0,0,28,0,0,0,0,0,0,0,447,346,95,0,0,0.78,537.47
+[00:11:40] ,player_stat,537.47,2,Equipe 1,Ramattra,Ramattra,34,15,3,8453.99,806.52,7642.47,0,4631.03,0,7761.48,1887.34,0,4,2,2,0,0,0,28,0,0,82,0.23,0,0,0,765,361,314,0,0,0.53,537.47
+[00:11:40] ,round_end,537.47,2,Equipe 1,2,1,1,0,0,242.61
+[00:11:40] ,match_end,537.47,2,2,1
+[00:11:40] ,player_stat,537.47,2,Equipe 2,Baptiste,Mercy,0,0,3,0,0,0,306.78,280.64,13.94,969.58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,537.47
+[00:11:40] ,player_stat,537.47,2,Equipe 2,Sombra,Genji,0,0,3,1358.31,131,1227.31,0,223.22,0,973.22,0,0,0,0,0,0,0,0,0,0,0,3,0.10,0,0,0,69,31,35,0,0,0.47,537.47
+[00:11:40] ,player_stat,537.47,2,Equipe 2,Hanzo,Junkrat,0,0,3,2880.47,677.63,2202.84,0,152.59,0,902.59,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,26,10,13,0,0,0.43,537.47
+[00:11:40] ,player_stat,537.47,2,Equipe 2,Orisa,Ramattra,10,8,6,7399.49,963.28,6436.21,0,2434.08,0,7387.85,2115.82,0,1,2,2,0,0,2,9,0,0,70,0.26,0,0,0,610,273,257,0,0,0.52,537.47
+[00:11:40] ,player_stat,537.47,2,Equipe 1,Moira,Baptiste,2,1,2,445.29,90,355.29,4045.25,948.98,398.12,1478.61,0,19,0,1,1,0,0,0,2,0,0,2,0.14,0,0,0,24,14,8,0,0,0.64,537.47
