@@ -9,9 +9,9 @@ class Time:
 
     def GetTime(self, TIME):
         HR, MIN, SEC = TIME.split(':')
-        self.HOURS = HR
-        self.MINUTES = MIN
-        self.SECONDS = SEC
+        self.HOURS = int(float(HR))
+        self.MINUTES = int(float(MIN))
+        self.SECONDS = float(SEC)
 
 
     def __add__(self, other):
@@ -59,4 +59,22 @@ class Time:
         raise("Essa classe não suporta divisão.")
     
     def __repr__(self):
-        return f"{self.HOURS}:{self.MINUTES}:{self.SECONDS}"
+        return f"{int(self.HOURS)}:{int(self.MINUTES)}:{self.SECONDS:.2f}"
+
+
+
+
+def Seconds_to_Time(SEC_INPUT : float):
+    INT_PART = SEC_INPUT // 1
+
+    SEC = (INT_PART % 60) + (SEC_INPUT - INT_PART)
+    MIN = INT_PART // 60
+    HR = 0
+    if MIN >= 60:
+        HR = MIN // 60
+        MIN = MIN % 60
+    
+    print(Time(f"{HR}:{MIN}:{SEC}"))
+
+
+Seconds_to_Time(123.21)
