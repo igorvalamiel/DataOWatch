@@ -6,6 +6,7 @@ CURRENT_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(CURRENT_PATH)
 
 from extractData import GetData
+from tools.time_dealing import Time, Seconds_to_Time
 
 
 # -------------------------------------------------------------------------------------------
@@ -17,26 +18,55 @@ class Match:
         self.GAME_MODE = ""
         self.TEAM1 = ""
         self.TEAM2 = ""
-        self.winner = ""
+        self.DURATION = None
+        self.ROUNDS = 0
+        self.TEAM1_SCORE = 0
+        self.TEAM2_SCORE = 0
+        self.WINNER = ""
 
         # pegando dados
         for ROW in GetData(PATHWAY):
 
             # Match Start
             if ROW[1] == "match_start": self.MatchStart(ROW)
+            if ROW[1] == "match_end": self.MatchEnd(ROW)
 
         print("Arquivo lido com sucesso!")
     
-    # Getting starting info
+    # Pegando dados iniciais
     def MatchStart(self, ROW):
         self.MAP = ROW[3]
         self.GAME_MODE = ROW[4]
         self.TEAM1 = ROW[5]
-        self.TEAM1 = ROW[6]
+        self.TEAM2 = ROW[6]
 
+    # Pegando dados finais
+    def MatchEnd(self, ROW):
 
+        # vendo se o jogo realmente começou
+        if self.MAP == "": raise("Erro: O jogo não foi iniciado.")
 
+        self.DURATION = Seconds_to_Time(ROW[2])
+        self.ROUNDS = ROW[3]
+        self.TEAM1_SCORE = int(ROW[4])
+        self.TEAM2_SCORE = int(ROW[5])
 
+        # verificando vencedor
+        if self.TEAM1_SCORE > self.TEAM2_SCORE: self.WINNER = self.TEAM1
+        elif self.TEAM1_SCORE < self.TEAM2_SCORE: self.WINNER = self.TEAM2
+        else: self.WINNER = "Empate"
+
+    # função para printar o resumo de informações
+    def Info(self):
+        print("Mapa: ", self.MAP)
+        print("Modo: ", self.GAME_MODE)
+        print("Time 1: ", self.TEAM1)
+        print(f"Pontuação - {self.TEAM1}: ", self.TEAM1_SCORE)
+        print("Time 2: ", self.TEAM2)
+        print(f"Pontuação - {self.TEAM2}: ", self.TEAM2_SCORE)
+        print("Duração total: ", self.DURATION)
+        print("Rounds: ", self.ROUNDS)
+        print("Vencedor: ", self.WINNER)
 
 
 # -------------------------------------------------------------------------------------------
@@ -44,8 +74,8 @@ class Match:
 
 # só pra desenvolvimento de código isso aqui
 PATH = "developing/data/"
-FILE_NAME = "teste1.csv"
+FILE_NAME = "teste0.csv"
 FILE_PATH = PATH+FILE_NAME
 teste = Match(FILE_PATH)
 
-print(teste.MAP)
+teste.Info()

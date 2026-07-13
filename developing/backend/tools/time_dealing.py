@@ -74,7 +74,7 @@ def Seconds_to_Time(SEC_INPUT : float):
         HR = MIN // 60
         MIN = MIN % 60
     
-    print(Time(f"{HR}:{MIN}:{SEC}"))
+    return Time(f"{HR}:{MIN}:{SEC}")
 
 
 Seconds_to_Time(123.21)
