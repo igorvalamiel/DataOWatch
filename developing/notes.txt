@@ -1,0 +1,31 @@
+EVENTS CLASSIFICATION
+
+    Class Match:
+        - match_start
+        - round_start
+        - setup_complete
+        - round_end
+        - objective_updated
+        - match_end
+    
+    Class Player:
+        - hero_spawn
+        - kill
+        - defensive_assist
+        - offensive_assist
+        - mercy_rez
+        - ultimate_charged
+        - ultimate_start
+        - ultimate_end
+        - player_stat
+            obs: quando alguem troca de personagem ele lança um "player_stat" de novo com a mudança
+
+
+    Class KillFeed:
+        - kill
+        - offensive_assist
+        - defensive_assist
+
+    Objective:
+        - payload_progress
+        - objective_updated
