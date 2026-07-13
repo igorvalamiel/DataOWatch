@@ -15,14 +15,9 @@ class Match:
     def __init__(self, PATHWAY):
 
         # pegando dados
-        DATA = GetData(PATHWAY)
-        while True:
-            try:
-                ROW = next(DATA)
-                print(ROW)
-            except:
-                print("Arquivo lido com sucesso!")
-                break
+        for ROW in GetData(PATHWAY):
+            print(ROW)
+        print("Arquivo lido com sucesso!")
 
 
 
