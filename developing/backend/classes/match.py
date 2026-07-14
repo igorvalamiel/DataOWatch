@@ -7,6 +7,7 @@ sys.path.append(CURRENT_PATH)
 
 from extractData import GetData
 from tools.time_dealing import Time, Seconds_to_Time
+from .round import Round
 
 
 # -------------------------------------------------------------------------------------------
@@ -23,15 +24,31 @@ class Match:
         self.TEAM1_SCORE = 0
         self.TEAM2_SCORE = 0
         self.WINNER = ""
+        self.ROUND_LIST = []
+        self.ROUND_ID = len(self.ROUND_LIST)+1 # esse identificador é o tamanho da lista pq é o ultimo index que ainda não existe
+        self.CURRENT_ROUND = None
 
         # pegando dados
         for ROW in GetData(PATHWAY):
 
-            # Match Start
+            # tirando [] do tempo de jogo
+            ROW[0] = ROW[1::-1]
+
             if ROW[1] == "match_start": self.MatchStart(ROW)
             if ROW[1] == "match_end": self.MatchEnd(ROW)
+            if ROW[1] == "round_start":
+                self.CURRENT_ROUND = Round(self.ROUND_ID, self.TEAM1, self.TEAM2)
+                self.CURRENT_ROUND.BeginRound(ROW)
+            if ROW[1] == "round_end":
+                self.CURRENT_ROUND.EndRound(ROW)
+                self.ROUND_LIST.append(self.CURRENT_ROUND)
+                
+                
+                self.CURRENT_ROUND = Round(self.ROUND_ID, self.TEAM1, self.TEAM2)
+
 
         print("Arquivo lido com sucesso!")
+        print("="*50)
     
     # Pegando dados iniciais
     def MatchStart(self, ROW):
@@ -47,7 +64,7 @@ class Match:
         if self.MAP == "": raise("Erro: O jogo não foi iniciado.")
 
         self.DURATION = Seconds_to_Time(ROW[2])
-        self.ROUNDS = ROW[3]
+        self.ROUNDS = int(ROW[3])
         self.TEAM1_SCORE = int(ROW[4])
         self.TEAM2_SCORE = int(ROW[5])
 
@@ -67,15 +84,7 @@ class Match:
         print("Duração total: ", self.DURATION)
         print("Rounds: ", self.ROUNDS)
         print("Vencedor: ", self.WINNER)
+        for i in self.ROUND_LIST: print(i)
 
 
 # -------------------------------------------------------------------------------------------
-
-
-# só pra desenvolvimento de código isso aqui
-PATH = "developing/data/"
-FILE_NAME = "teste0.csv"
-FILE_PATH = PATH+FILE_NAME
-teste = Match(FILE_PATH)
-
-teste.Info()
