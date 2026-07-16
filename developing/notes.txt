@@ -11,10 +11,10 @@ EVENTS CLASSIFICATION
             [inspector_timestamp],event_type,match_current_time,match_round,team_1_score,team_2_score
         
     Class Round:
-        - round_start
+        - round_start ✔
             [inspector_timestamp],event_type,match_current_time,match_round,attacking_team,team_1_score,team_2_score,objective_index
                 obs: objective_index muda conforme os checkpoints
-        - round_end
+        - round_end ✔
             [inspector_timestamp],event_type,match_current_time,match_round,attacking_team,team_1_score,team_2_score,objective_index,control_percentage_team_1,control_percentage_team_2,match_time
 
     
@@ -37,7 +37,11 @@ EVENTS CLASSIFICATION
         - offensive_assist
         - defensive_assist
 
-    Objective:
+    Progress:
+        - setup_complete
+            [inspector_timestamp],event_type,match_current_time,match_round,match_time
+                Isso aqui eu vou usar para iniciar a partida
         - payload_progress
+            [inspector_timestamp],event_type,match_current_time,match_round,attacking_team,objective_index,payload_progress_percentage
         - objective_updated
             [inspector_timestamp],event_type,match_current_time,match_round,previous_objective_index,new_objective_index

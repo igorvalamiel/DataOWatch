@@ -36,6 +36,9 @@ class Match:
 
             if ROW[1] == "match_start": self.MatchStart(ROW)
             if ROW[1] == "match_end": self.MatchEnd(ROW)
+            if ROW[1] == "setup_complete":
+                pass
+                # aqui eu vou criar o objeto Progress
             if ROW[1] == "round_start":
                 self.CURRENT_ROUND = Round(self.ROUND_ID, self.TEAM1, self.TEAM2)
                 self.CURRENT_ROUND.BeginRound(ROW)
