@@ -1,15 +1,19 @@
 from tools.time_dealing import Time, Seconds_to_Time
 
 class Progress():
-    def __init__(self, TYPE):
+    def __init__(self, MODE):
         self.INDEX = -1
         self.PROGRESS = -1  # Only payloads have "progress" percentage
-        self.TYPE = TYPE
+        self.MODE = MODE
         self.TARGET = None
+
+        self.PAYLOAD_MODES = ["Escolta", "Híbrido"]
+        self.OBJECTVE_MODES = ["Controle", "Flashpoint"]
+        self.ROBOT_MODES = ["Batalha"]
         
-        if self.TYPE == "payload_progress":
+        if self.MODE in self.PAYLOAD_MODES:
             self.TARGET = Payload()
-        elif self.TYPE == "objective_updated":
+        elif self.MODE in self.OBJECTVE_MODES:
             self.TARGET = Objective()
         
         self.UpdateAll()
@@ -19,7 +23,7 @@ class Progress():
         self.UpdateAll()
     
     def UpdateProgress(self):
-        if self.TYPE == "payload_progress":
+        if self.MODE in self.PAYLOAD_MODES:
             self.TARGET.UpdateProgress()
         else:
             raise("Esse tipo de objetivo não possui porcentagem de progresso.")
@@ -27,8 +31,10 @@ class Progress():
     
     def UpdateAll(self):
         self.INDEX = self.TARGET.PROGRESS_INDEX
-        if self.TYPE == "payload_progress":
+        print("Index: ", self.INDEX)
+        if self.MODE in self.PAYLOAD_MODES:
             self.PROGRESS = self.TARGET.PAYLOAD_PROGRESS
+            print("Progress: ", self.PROGRESS)
             
 
 
@@ -38,7 +44,6 @@ class Objective():
     
     def AddIndex(self):
         self.PROGRESS_INDEX += 1
-
 
 
 class Payload():
@@ -51,3 +56,8 @@ class Payload():
     
     def UpdateProgress(self, NEW_VALUE):
         self.PAYLOAD_PROGRESS = NEW_VALUE
+
+
+class Robot():
+    def __init__(self):
+        pass

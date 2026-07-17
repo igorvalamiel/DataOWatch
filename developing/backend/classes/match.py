@@ -8,6 +8,7 @@ sys.path.append(CURRENT_PATH)
 from extractData import GetData
 from tools.time_dealing import Time, Seconds_to_Time
 from .round import Round
+from .progress import Progress
 
 
 # -------------------------------------------------------------------------------------------
@@ -27,6 +28,7 @@ class Match:
         self.ROUND_LIST = []
         self.ROUND_ID = len(self.ROUND_LIST)+1 # esse identificador é o tamanho da lista pq é o ultimo index que ainda não existe
         self.CURRENT_ROUND = None
+        self.TARGET = None #Objectives or Payload
 
         # pegando dados
         for ROW in GetData(PATHWAY):
@@ -37,18 +39,13 @@ class Match:
             if ROW[1] == "match_start": self.MatchStart(ROW)
             if ROW[1] == "match_end": self.MatchEnd(ROW)
             if ROW[1] == "setup_complete":
-                pass
-                # aqui eu vou criar o objeto Progress
+                self.TARGET = Progress(self.GAME_MODE)
             if ROW[1] == "round_start":
                 self.CURRENT_ROUND = Round(self.ROUND_ID, self.TEAM1, self.TEAM2)
                 self.CURRENT_ROUND.BeginRound(ROW)
             if ROW[1] == "round_end":
                 self.CURRENT_ROUND.EndRound(ROW)
                 self.ROUND_LIST.append(self.CURRENT_ROUND)
-                
-                
-                self.CURRENT_ROUND = Round(self.ROUND_ID, self.TEAM1, self.TEAM2)
-
 
         print("Arquivo lido com sucesso!")
         print("="*50)
@@ -88,6 +85,9 @@ class Match:
         print("Rounds: ", self.ROUNDS)
         print("Vencedor: ", self.WINNER)
         for i in self.ROUND_LIST: print(i)
+        # print("Round ID: ", self.ROUND_ID)
+        # print("Current Round: ", self.CURRENT_ROUND)
+        # print("Target: ", self.TARGET)
 
 
 # -------------------------------------------------------------------------------------------
