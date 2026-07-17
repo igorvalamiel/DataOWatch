@@ -46,6 +46,12 @@ class Match:
             if ROW[1] == "round_end":
                 self.CURRENT_ROUND.EndRound(ROW)
                 self.ROUND_LIST.append(self.CURRENT_ROUND)
+            if ROW[1] == "payload_progress":
+                pass
+            if ROW[1] == "objective_updated":
+                pass
+            if ROW[1] == "objective_captured":
+                pass
 
         print("Arquivo lido com sucesso!")
         print("="*50)

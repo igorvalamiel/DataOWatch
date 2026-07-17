@@ -3,10 +3,6 @@ EVENTS CLASSIFICATION
     Class Match:
         - match_start ✔
             [inspector_timestamp],event_type,match_current_time,current_map,current_game_mode,team_1_name,team_2_name
-        - setup_complete ✔
-            [inspector_timestamp],event_type,match_current_time,match_round,match_time
-                começo da partida de fato
-                nem precisa ser usado pq já tem as duas informações no match_start/match_end
         - match_end ✔
             [inspector_timestamp],event_type,match_current_time,match_round,team_1_score,team_2_score
         
@@ -45,3 +41,5 @@ EVENTS CLASSIFICATION
             [inspector_timestamp],event_type,match_current_time,match_round,attacking_team,objective_index,payload_progress_percentage
         - objective_updated
             [inspector_timestamp],event_type,match_current_time,match_round,previous_objective_index,new_objective_index
+        - objective_captured
+            [inspector_timestamp],event_type,match_current_time,match_round,capturing_team,objective_index,control_percentage_team_1,control_percentage_team_2,match_time
