@@ -1,0 +1,120 @@
+[00:00:00] ,match_start,0,Colosseo,Avanço,Equipe 1,Equipe 2
+[00:00:41] ,hero_spawn,0,Equipe 2,Mercy,Mercy,0,0
+[00:00:41] ,hero_spawn,0,Equipe 2,Zenyatta,Zenyatta,0,0
+[00:00:41] ,hero_spawn,0,Equipe 2,Sombra,Sombra,0,0
+[00:00:41] ,hero_spawn,0,Equipe 2,Symmetra,Symmetra,0,0
+[00:00:41] ,hero_spawn,0,Equipe 2,Mauga,Mauga,0,0
+[00:00:41] ,hero_spawn,0,Equipe 1,Kiriko,Kiriko,0,0
+[00:00:41] ,hero_spawn,0,Equipe 1,Zenyatta,Zenyatta,0,0
+[00:00:41] ,hero_spawn,0,Equipe 1,Widowmaker,Widowmaker,0,0
+[00:00:41] ,hero_spawn,0,Equipe 1,Hanzo,Hanzo,0,0
+[00:00:41] ,hero_spawn,0,Equipe 1,Zarya,Zarya,0,0
+[00:00:41] ,round_start,0,1,Equipe 2,0,0,0
+[00:01:06] ,setup_complete,0,1,599.99
+[00:01:36] ,kill,29.81,Equipe 1,Zenyatta,Zenyatta,Equipe 2,Zenyatta,Zenyatta,Disparo Primário,36.60,0,0
+[00:01:37] ,kill,31.02,Equipe 1,Hanzo,Hanzo,Equipe 2,Mercy,Mercy,Disparo Primário,8.28,True,0
+[00:01:37] ,defensive_assist,31.09,Equipe 1,Kiriko,Kiriko,0
+[00:01:37] ,offensive_assist,31.10,Equipe 1,Zenyatta,Zenyatta,0
+[00:01:37] ,defensive_assist,31.10,Equipe 1,Zenyatta,Zenyatta,0
+[00:01:38] ,kill,32.54,Equipe 1,Kiriko,Kiriko,Equipe 2,Symmetra,Symmetra,0,6.97,0,0
+[00:01:39] ,defensive_assist,32.96,Equipe 1,Kiriko,Kiriko,0
+[00:01:39] ,offensive_assist,33.01,Equipe 1,Zenyatta,Zenyatta,0
+[00:01:44] ,kill,37.84,Equipe 1,Zarya,Zarya,Equipe 2,Sombra,Sombra,Corpo a corpo,15.73,0,0
+[00:01:44] ,defensive_assist,38.18,Equipe 1,Kiriko,Kiriko,0
+[00:01:44] ,defensive_assist,38.19,Equipe 1,Zenyatta,Zenyatta,0
+[00:01:46] ,kill,40.24,Equipe 1,Zarya,Zarya,Equipe 2,Mauga,Mauga,Corpo a corpo,51.18,0,0
+[00:01:46] ,defensive_assist,40.50,Equipe 1,Zarya,Zarya,0
+[00:01:46] ,defensive_assist,40.51,Equipe 1,Kiriko,Kiriko,0
+[00:01:46] ,offensive_assist,40.53,Equipe 1,Zenyatta,Zenyatta,0
+[00:01:46] ,defensive_assist,40.53,Equipe 1,Zenyatta,Zenyatta,0
+[00:02:19] ,kill,72.83,Equipe 1,Zarya,Zarya,Equipe 2,Zenyatta,Zenyatta,Disparo Secundário,45.94,0,0
+[00:02:19] ,offensive_assist,72.91,Equipe 1,Zenyatta,Zenyatta,0
+[00:02:21] ,kill,74.94,Equipe 1,Widowmaker,Widowmaker,Equipe 2,Symmetra,Symmetra,Corpo a corpo,1.07,0,0
+[00:02:21] ,offensive_assist,75.25,Equipe 1,Zenyatta,Zenyatta,0
+[00:02:21] ,defensive_assist,75.26,Equipe 1,Kiriko,Kiriko,0
+[00:02:21] ,defensive_assist,75.31,Equipe 1,Zarya,Zarya,0
+[00:02:22] ,mercy_rez,76.57,Equipe 2,Mercy,Mercy,Equipe 2,Zenyatta,Zenyatta
+[00:02:23] ,kill,76.96,Equipe 1,Hanzo,Hanzo,Equipe 2,Sombra,Sombra,Habilidade 2,91.39,0,0
+[00:02:23] ,offensive_assist,77.13,Equipe 1,Zenyatta,Zenyatta,0
+[00:02:23] ,defensive_assist,77.15,Equipe 1,Kiriko,Kiriko,0
+[00:02:23] ,defensive_assist,77.20,Equipe 1,Zarya,Zarya,0
+[00:02:29] ,kill,83.55,Equipe 1,Zenyatta,Zenyatta,Equipe 2,Mauga,Mauga,Disparo Primário,35.49,0,0
+[00:02:29] ,defensive_assist,83.68,Equipe 1,Zenyatta,Zenyatta,0
+[00:02:30] ,defensive_assist,83.76,Equipe 1,Kiriko,Kiriko,0
+[00:02:30] ,defensive_assist,83.76,Equipe 1,Zarya,Zarya,0
+[00:02:37] ,kill,91.15,Equipe 1,Kiriko,Kiriko,Equipe 2,Mercy,Mercy,0,36.23,0,0
+[00:02:37] ,offensive_assist,91.20,Equipe 1,Zenyatta,Zenyatta,0
+[00:02:37] ,defensive_assist,91.20,Equipe 1,Zenyatta,Zenyatta,0
+[00:02:41] ,kill,95.40,Equipe 1,Widowmaker,Widowmaker,Equipe 2,Zenyatta,Zenyatta,Disparo Primário,7.60,0,0
+[00:02:41] ,offensive_assist,95.42,Equipe 1,Zenyatta,Zenyatta,0
+[00:02:41] ,defensive_assist,95.42,Equipe 1,Zenyatta,Zenyatta,0
+[00:02:41] ,defensive_assist,95.48,Equipe 1,Kiriko,Kiriko,0
+[00:03:19] ,ultimate_charged,133.18,Equipe 1,Kiriko,Kiriko,0,1
+[00:03:19] ,ultimate_start,133.23,Equipe 1,Kiriko,Kiriko,0,1
+[00:03:20] ,ultimate_charged,134.00,Equipe 1,Zenyatta,Zenyatta,0,1
+[00:03:22] ,kill,136.69,Equipe 1,Zarya,Zarya,Equipe 2,Kiriko,Kiriko,Corpo a corpo,31.33,0,0
+[00:03:23] ,offensive_assist,136.78,Equipe 1,Zenyatta,Zenyatta,0
+[00:03:23] ,defensive_assist,136.78,Equipe 1,Zenyatta,Zenyatta,0
+[00:03:23] ,offensive_assist,136.86,Equipe 1,Kiriko,Kiriko,0
+[00:03:23] ,defensive_assist,136.86,Equipe 1,Kiriko,Kiriko,0
+[00:03:23] ,defensive_assist,136.88,Equipe 1,Zarya,Zarya,0
+[00:03:23] ,kill,137.34,Equipe 1,Widowmaker,Widowmaker,Equipe 2,Mercy,Mercy,Disparo Primário,12.61,0,0
+[00:03:23] ,defensive_assist,137.36,Equipe 1,Zarya,Zarya,0
+[00:03:24] ,defensive_assist,137.73,Equipe 1,Zenyatta,Zenyatta,0
+[00:03:24] ,offensive_assist,137.81,Equipe 1,Kiriko,Kiriko,0
+[00:03:24] ,defensive_assist,137.81,Equipe 1,Kiriko,Kiriko,0
+[00:03:24] ,ultimate_start,138.49,Equipe 1,Zenyatta,Zenyatta,0,1
+[00:03:25] ,kill,139.26,Equipe 1,Kiriko,Kiriko,Equipe 2,Symmetra,Symmetra,0,105.13,True,0
+[00:03:25] ,defensive_assist,139.61,Equipe 1,Zenyatta,Zenyatta,0
+[00:03:25] ,defensive_assist,139.68,Equipe 1,Kiriko,Kiriko,0
+[00:03:25] ,defensive_assist,139.69,Equipe 1,Zarya,Zarya,0
+[00:03:26] ,kill,140.00,Equipe 1,Widowmaker,Widowmaker,Equipe 2,Sombra,Sombra,Disparo Primário,6.60,0,0
+[00:03:26] ,offensive_assist,140.08,Equipe 1,Zenyatta,Zenyatta,0
+[00:03:26] ,defensive_assist,140.08,Equipe 1,Zenyatta,Zenyatta,0
+[00:03:26] ,defensive_assist,140.16,Equipe 1,Kiriko,Kiriko,0
+[00:03:26] ,kill,140.46,Equipe 1,Widowmaker,Widowmaker,Equipe 2,Mauga,Mauga,Disparo Primário,16.39,0,0
+[00:03:26] ,offensive_assist,140.54,Equipe 1,Zenyatta,Zenyatta,0
+[00:03:26] ,defensive_assist,140.54,Equipe 1,Zenyatta,Zenyatta,0
+[00:03:26] ,offensive_assist,140.61,Equipe 1,Kiriko,Kiriko,0
+[00:03:26] ,defensive_assist,140.61,Equipe 1,Kiriko,Kiriko,0
+[00:03:29] ,ultimate_end,143.06,Equipe 1,Kiriko,Kiriko,0,1
+[00:03:30] ,ultimate_end,144.50,Equipe 1,Zenyatta,Zenyatta,0,1
+[00:03:50] ,kill,163.90,Equipe 1,Kiriko,Kiriko,Equipe 2,Mercy,Mercy,0,123.40,True,0
+[00:03:50] ,ultimate_charged,164.02,Equipe 1,Hanzo,Hanzo,0,1
+[00:03:50] ,offensive_assist,164.06,Equipe 1,Zenyatta,Zenyatta,0
+[00:03:50] ,defensive_assist,164.06,Equipe 1,Zenyatta,Zenyatta,0
+[00:03:50] ,defensive_assist,164.12,Equipe 1,Zarya,Zarya,0
+[00:03:52] ,ultimate_charged,166.01,Equipe 1,Widowmaker,Widowmaker,0,1
+[00:03:52] ,ultimate_start,166.67,Equipe 1,Widowmaker,Widowmaker,0,1
+[00:03:56] ,kill,170.01,Equipe 1,Widowmaker,Widowmaker,Equipe 2,Kiriko,Kiriko,Disparo Primário,6.80,0,0
+[00:03:56] ,offensive_assist,170.15,Equipe 1,Zenyatta,Zenyatta,0
+[00:03:56] ,defensive_assist,170.25,Equipe 1,Kiriko,Kiriko,0
+[00:04:00] ,kill,173.90,Equipe 2,Mei,Mei,Equipe 1,Widowmaker,Widowmaker,Disparo Primário,1,0,0
+[00:04:00] ,ultimate_end,173.90,Equipe 1,Widowmaker,Widowmaker,0,1
+[00:04:00] ,defensive_assist,174.01,Equipe 2,Mauga,Mauga,0
+[00:04:00] ,kill,174.17,Equipe 1,Hanzo,Hanzo,Equipe 2,Hanzo,Hanzo,Disparo Primário,59.46,0,0
+[00:04:00] ,defensive_assist,174.40,Equipe 1,Zenyatta,Zenyatta,0
+[00:04:00] ,defensive_assist,174.46,Equipe 1,Kiriko,Kiriko,0
+[00:04:00] ,defensive_assist,174.48,Equipe 1,Zarya,Zarya,0
+[00:04:03] ,kill,177.68,Equipe 1,Zenyatta,Zenyatta,Equipe 2,Mauga,Mauga,Disparo Primário,47.00,0,0
+[00:04:03] ,defensive_assist,177.68,Equipe 1,Zenyatta,Zenyatta,0
+[00:04:04] ,defensive_assist,177.76,Equipe 1,Kiriko,Kiriko,0
+[00:04:05] ,kill,178.78,Equipe 1,Kiriko,Kiriko,Equipe 2,Mei,Mei,0,36.37,0,0
+[00:04:05] ,defensive_assist,179.10,Equipe 1,Zenyatta,Zenyatta,0
+[00:04:05] ,defensive_assist,179.17,Equipe 1,Kiriko,Kiriko,0
+[00:04:09] ,ultimate_charged,183.02,Equipe 1,Zarya,Zarya,0,1
+[00:04:10] ,kill,184.05,Equipe 1,Zenyatta,Zenyatta,Equipe 2,Mercy,Mercy,Disparo Primário,64.11,0,0
+[00:04:10] ,defensive_assist,184.29,Equipe 1,Zenyatta,Zenyatta,0
+[00:04:10] ,defensive_assist,184.35,Equipe 1,Zarya,Zarya,0
+[00:04:13] ,player_stat,187.52,1,Equipe 2,Mercy,Mercy,0,0,5,226,40,186,409.03,168.35,31.65,1325.00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,9,10,0,0,0.47,187.52
+[00:04:13] ,player_stat,187.52,1,Equipe 2,Kiriko,Zenyatta,0,0,3,355,60,295,140.08,48.05,0,798.05,0,0,0,0,0,0,0,0,0,0,0,3,0.60,0,0,0,16,5,10,0,0,0.33,187.52
+[00:04:13] ,player_stat,187.52,1,Equipe 2,Mei,Sombra,0,0,3,1108.30,656.04,452.26,0,114.08,0,789.08,0,0,0,0,0,0,0,0,0,0,0,22,0.43,0,0,0,180,51,55,0,0,0.48,187.52
+[00:04:13] ,player_stat,187.52,1,Equipe 2,Hanzo,Symmetra,0,0,3,987.65,141.12,844.53,0,176.82,0,1001.82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,1,187.52
+[00:04:13] ,player_stat,187.52,1,Equipe 2,Mauga,Mauga,0,0,4,1899.70,321.96,1575.74,627.43,842.03,458.55,3317.58,0,1,0,0,0,0,0,0,0,0,0,108,0.40,0,0,0,538,272,214,0,0,0.56,187.52
+[00:04:13] ,player_stat,187.52,1,Equipe 1,Kiriko,Kiriko,15,5,0,1594.10,0,1554.10,2886.71,1304.04,0,1304.04,0,17,3,1,2,0,0,0,14,0,0,11,0.42,0,0,0,40,26,12,0,0,0.68,187.52
+[00:04:13] ,player_stat,187.52,1,Equipe 1,Zenyatta,Zenyatta,16,4,0,2336.20,0,2336.20,1336.31,1335.32,64,1335.32,0,16,13,1,1,0,0,0,15,0,0,12,0.28,0,0,0,81,43,38,0,0,0.53,187.52
+[00:04:13] ,player_stat,187.52,1,Equipe 1,Widowmaker,Widowmaker,9,6,1,1293.31,0,1253.31,0,276.99,0,519.33,0,0,0,1,1,0,0,0,9,0,0,33,0.62,1,0,0,85,53,32,1,1,0.62,187.52
+[00:04:13] ,player_stat,187.52,1,Equipe 1,Hanzo,Hanzo,12,3,0,1545.01,0,1432.63,0,464.45,0,466.37,0,0,0,1,0,0,0,0,10,0,0,6,0.35,0,0,0,50,17,30,0,0,0.36,187.52
+[00:04:13] ,player_stat,187.52,1,Equipe 1,Zarya,Zarya,17,4,0,2380.16,50.80,2161.74,0,910.98,0,940.75,1444.12,10,0,1,0,0,0,0,17,0,0,0,0,0,0,0,10,5,5,0,0,0.50,187.52
+[00:04:13] ,round_end,187.52,1,Equipe 2,0,0,0,0,0,412.50
+[00:04:13] ,match_end,187.52,1,0,0
