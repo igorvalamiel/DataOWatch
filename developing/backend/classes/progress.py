@@ -15,6 +15,8 @@ class Progress():
             self.TARGET = Payload()
         elif self.MODE in self.OBJECTVE_MODES:
             self.TARGET = Objective()
+        else:
+            self.TARGET = Robot()
         
         self.UpdateAll()
     
@@ -22,12 +24,12 @@ class Progress():
         self.TARGET.AddIndex()
         self.UpdateAll()
     
-    def UpdateProgress(self):
+    def UpdateProgress(self, NEW_VALUE):
         if self.MODE in self.PAYLOAD_MODES:
-            self.TARGET.UpdateProgress()
+            self.TARGET.UpdateProgress(NEW_VALUE)
         else:
             raise("Esse tipo de objetivo não possui porcentagem de progresso.")
-        self.UpdateAll
+        self.UpdateAll()
     
     def UpdateAll(self):
         self.INDEX = self.TARGET.PROGRESS_INDEX
@@ -60,4 +62,7 @@ class Payload():
 
 class Robot():
     def __init__(self):
-        pass
+        self.PROGRESS_INDEX = 0
+    
+    def AddIndex(self):
+        self.PROGRESS_INDEX += 1

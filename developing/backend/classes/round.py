@@ -1,8 +1,10 @@
 from tools.time_dealing import Time, Seconds_to_Time
+from .progress import Progress
 
 class Round():
-    def __init__(self, ID, TEAM1, TEAM2):
+    def __init__(self, ID, TEAM1, TEAM2, GAME_MODE):
         self.ID = ID
+        self.GAME_MODE = GAME_MODE
         self.ATTACK_TEAM = ""
         self.DURATION = None
         self.TEAM1_SCORE = 0
@@ -12,6 +14,9 @@ class Round():
         self.BEGIN_TIME = 0
         self.END_TIME = 0
         self.WINNER = ["Empate", TEAM1, TEAM2]
+        self.TARGET = None #Objectives, Payload or Robot
+
+        self.TARGET = Progress(self.GAME_MODE)
 
 
     def BeginRound(self, ROW):

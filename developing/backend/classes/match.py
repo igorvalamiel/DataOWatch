@@ -28,30 +28,30 @@ class Match:
         self.ROUND_LIST = []
         self.ROUND_ID = len(self.ROUND_LIST)+1 # esse identificador é o tamanho da lista pq é o ultimo index que ainda não existe
         self.CURRENT_ROUND = None
-        self.TARGET = None #Objectives or Payload
 
         # pegando dados
         for ROW in GetData(PATHWAY):
 
             # tirando [] do tempo de jogo
-            ROW[0] = ROW[1::-1]
+            ROW[0] = ROW[0].strip("[]")
 
             if ROW[1] == "match_start": self.MatchStart(ROW)
             if ROW[1] == "match_end": self.MatchEnd(ROW)
-            if ROW[1] == "setup_complete":
-                self.TARGET = Progress(self.GAME_MODE)
             if ROW[1] == "round_start":
-                self.CURRENT_ROUND = Round(self.ROUND_ID, self.TEAM1, self.TEAM2)
+                self.CURRENT_ROUND = Round(self.ROUND_ID, self.TEAM1, self.TEAM2, self.GAME_MODE)
                 self.CURRENT_ROUND.BeginRound(ROW)
             if ROW[1] == "round_end":
                 self.CURRENT_ROUND.EndRound(ROW)
                 self.ROUND_LIST.append(self.CURRENT_ROUND)
             if ROW[1] == "payload_progress":
-                pass
+                if self.CURRENT_ROUND:
+                    self.CURRENT_ROUND.TARGET.UpdateProgress(ROW[3])
             if ROW[1] == "objective_updated":
-                pass
+                if self.CURRENT_ROUND:
+                    self.CURRENT_ROUND.TARGET.AddIndex()
             if ROW[1] == "objective_captured":
-                pass
+                if self.CURRENT_ROUND:
+                    self.CURRENT_ROUND.TARGET.AddIndex()
 
         print("Arquivo lido com sucesso!")
         print("="*50)
