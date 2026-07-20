@@ -26,8 +26,13 @@ class Round():
         self.ATTACK_TEAM = ROW[4]
         self.TEAM1_SCORE = int(ROW[5])
         self.TEAM2_SCORE = int(ROW[6])
-        self.TEAM1_CONTROL = ROW[8]
-        self.TEAM2_CONTROL = ROW[9]
+        if self.GAME_MODE in ["Controle", "Flashpoint"]:
+            if len(ROW) > 9:
+                self.TEAM1_CONTROL = ROW[8]
+                self.TEAM2_CONTROL = ROW[9]
+        else:
+            self.TEAM1_CONTROL = 0
+            self.TEAM2_CONTROL = 0
         self.END_TIME = Seconds_to_Time(ROW[2])
         self.DURATION = self.END_TIME - self.BEGIN_TIME
 
@@ -50,6 +55,13 @@ class Round():
         STRING_LINE += f"\n     Team 2 Score: {self.TEAM2_SCORE}"
         STRING_LINE += f"\n     Team 1 Control (%): {self.TEAM1_CONTROL}"
         STRING_LINE += f"\n     Team 2 Control (%): {self.TEAM2_CONTROL}"
+        
+        if self.TARGET:
+            STRING_LINE += f"\n     Último Checkpoint/Estágio: {self.TARGET.INDEX}"
+            # Se for modo de escolta ou híbrido, mostra a porcentagem da carga
+            if self.TARGET.MODE in self.TARGET.PAYLOAD_MODES:
+                STRING_LINE += f"\n     Progresso Final da Carga: {self.TARGET.PROGRESS}"
+        
         STRING_LINE += f"\n     Winner: {self.WINNER}"
     
         return STRING_LINE

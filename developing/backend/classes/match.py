@@ -81,19 +81,20 @@ class Match:
 
     # função para printar o resumo de informações
     def Info(self):
-        print("Mapa: ", self.MAP)
-        print("Modo: ", self.GAME_MODE)
-        print("Time 1: ", self.TEAM1)
-        print(f"Pontuação - {self.TEAM1}: ", self.TEAM1_SCORE)
-        print("Time 2: ", self.TEAM2)
-        print(f"Pontuação - {self.TEAM2}: ", self.TEAM2_SCORE)
-        print("Duração total: ", self.DURATION)
-        print("Rounds: ", self.ROUNDS)
-        print("Vencedor: ", self.WINNER)
-        for i in self.ROUND_LIST: print(i)
-        # print("Round ID: ", self.ROUND_ID)
-        # print("Current Round: ", self.CURRENT_ROUND)
-        # print("Target: ", self.TARGET)
+        print("="*50)
+        print(f"RESUMO DA PARTIDA - MAPA: {self.MAP} ({self.GAME_MODE})")
+        print("="*50)
+        print(f"Time 1: {self.TEAM1} | Pontuação Final: {self.TEAM1_SCORE}")
+        print(f"Time 2: {self.TEAM2} | Pontuação Final: {self.TEAM2_SCORE}")
+        print(f"Duração total: {self.DURATION}")
+        print(f"Vencedor da Partida: {self.WINNER}")
+        print(f"Total de Rounds no Log: {self.ROUNDS}")
+        print(f"Total de Rounds Processados: {len(self.ROUND_LIST)}") # Excelente para ver se o parser não pulou nada
+        
+        print("\nDETALHES DOS ROUNDS:")
+        for r in self.ROUND_LIST: 
+            print(r)
+        print("="*50)
 
 
 # -------------------------------------------------------------------------------------------
