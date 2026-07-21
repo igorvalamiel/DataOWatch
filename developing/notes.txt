@@ -17,11 +17,16 @@ EVENTS CLASSIFICATION
     Class Player:
         - hero_spawn ✔
             [inspector_timestamp],event_type,match_current_time,player_team,player_name,spawned_hero,previous_hero,time_on_previous_hero
-        - kill
+        - kill ✔
             [inspector_timestamp],event_type,match_current_time,attacker_team,attacker_name,attacker_hero,victim_team,victim_name,victim_hero,ability,damage,is_critical,is_environmental
-        - defensive_assist
-        - offensive_assist
-        - mercy_rez
+        - defensive_assist ✔
+            [inspector_timestamp],event_type,match_current_time,player_team,player_name,player_hero,duplicated_hero
+                obs: "duplicated_hero" é a Ult da Echo
+        - offensive_assist ✔
+            [inspector_timestamp],event_type,match_current_time,player_team,player_name,player_hero,duplicated_hero
+                obs: "duplicated_hero" é a Ult da Echo
+        - mercy_rez ✔
+            [inspector_timestamp],event_type,match_current_time,mercy_team,mercy_player_name,mercy_hero,resurrected_player_team,resurrected_player_name,resurrected_player_hero
         - ultimate_charged
         - ultimate_start
         - ultimate_end

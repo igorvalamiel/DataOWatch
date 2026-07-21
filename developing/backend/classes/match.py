@@ -61,6 +61,18 @@ class Match:
             elif ROW[1] == "kill":
                 PLAYER = self.PLAYERS[ROW[4]]
                 PLAYER.Kill(ROW)
+            elif ROW[1] == "defensive_assist":
+                PLAYER = self.PLAYERS[ROW[4]]
+                PLAYER.AddDefAssist()
+            elif ROW[1] == "offensive_assist":
+                PLAYER = self.PLAYERS[ROW[4]]
+                PLAYER.AddOffenAssist()
+
+            # ONly if Mercy
+            elif ROW[1] == "mercy_rez":
+                if ROW[5] != "Mercy": raise "Esse herói não pode ressucitar outro."
+                PLAYER = self.PLAYERS[ROW[4]]
+                PLAYER.MercyRez(ROW[7], ROW[8])
 
 
         print("Arquivo lido com sucesso!")

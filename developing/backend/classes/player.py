@@ -3,8 +3,13 @@ class Player():
         self.TEAM = TEAM
         self.NAME = NAME
         self.HERO = HERO
-        self.HEROS_PLAYED = {}
+        self.HEROS_PLAYED = {} # Futuramente adicionar kills e assistencias por heroi jogado
         self.KILLS = []
+        self.DEF_ASSIST = 0
+        self.OFFEN_ASSIST = 0
+
+        # Only if Mercy
+        self.REZ = {}
 
         if PREV_HERO_TIME:
             if PREV_HERO in self.HEROS_PLAYED:
@@ -15,7 +20,19 @@ class Player():
     def Kill(self, ROW):
         KILL = Kill(ROW[2], ROW[3], ROW[4], ROW[5], ROW[6], ROW[7], ROW[8], ROW[9], ROW[10], ROW[11], ROW[12])
         print(KILL)
-
+    
+    def AddDefAssist(self):
+        self.DEF_ASSIST += 1
+    
+    def AddOffenAssist(self):
+        self.OFFEN_ASSIST += 1
+    
+    # Only if Mercy
+    def MercyRez(self, PLAYER, HERO):
+        if PLAYER in self.REZ:
+            self.REZ[PLAYER].append(HERO)
+        else:
+            self.REZ[PLAYER] = [HERO]
 
     def __repr__(self):
         RETURN_TXT = ""
@@ -23,6 +40,13 @@ class Player():
         RETURN_TXT += "\nTime: " + str(self.TEAM)
         RETURN_TXT += "\nHerois: "
         for hero, time in self.HEROS_PLAYED.items(): RETURN_TXT += f"\n   {hero} - {time} jogado"
+        RETURN_TXT += f"\nKills = {self.KILLS}"
+        RETURN_TXT += f"\nDefensive Assistences = {self.DEF_ASSIST}"
+        RETURN_TXT += f"\nOffensive Assistences = {self.OFFEN_ASSIST}"
+        if self.REZ:
+            RETURN_TXT += f"Mercy Rez: ["
+            for player, hero in self.REZ.items(): RETURN_TXT += f"{player} ({hero}), "
+            RETURN_TXT += ']'
 
         return RETURN_TXT
 
