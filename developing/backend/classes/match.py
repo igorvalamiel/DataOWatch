@@ -8,7 +8,7 @@ sys.path.append(CURRENT_PATH)
 from extractData import GetData
 from tools.time_dealing import Time, Seconds_to_Time
 from .round import Round
-from .progress import Progress
+from .player import Player
 
 
 # -------------------------------------------------------------------------------------------
@@ -28,6 +28,7 @@ class Match:
         self.ROUND_LIST = []
         self.ROUND_ID = len(self.ROUND_LIST)+1 # esse identificador é o tamanho da lista pq é o ultimo index que ainda não existe
         self.CURRENT_ROUND = None
+        self.PLAYERS = {}
 
         # pegando dados
         for ROW in GetData(PATHWAY):
@@ -36,22 +37,31 @@ class Match:
             ROW[0] = ROW[0].strip("[]")
 
             if ROW[1] == "match_start": self.MatchStart(ROW)
-            if ROW[1] == "match_end": self.MatchEnd(ROW)
-            if ROW[1] == "round_start":
+            elif ROW[1] == "match_end": self.MatchEnd(ROW)
+            elif ROW[1] == "round_start":
                 self.CURRENT_ROUND = Round(self.ROUND_ID, self.TEAM1, self.TEAM2, self.GAME_MODE)
                 self.CURRENT_ROUND.BeginRound(ROW)
-            if ROW[1] == "round_end":
+            elif ROW[1] == "round_end":
                 self.CURRENT_ROUND.EndRound(ROW)
                 self.ROUND_LIST.append(self.CURRENT_ROUND)
-            if ROW[1] == "payload_progress":
+            elif ROW[1] == "payload_progress":
                 if self.CURRENT_ROUND:
                     self.CURRENT_ROUND.TARGET.UpdateProgress(ROW[3])
-            if ROW[1] == "objective_updated":
+            elif ROW[1] == "objective_updated":
                 if self.CURRENT_ROUND:
                     self.CURRENT_ROUND.TARGET.AddIndex()
-            if ROW[1] == "objective_captured":
+            elif ROW[1] == "objective_captured":
                 if self.CURRENT_ROUND:
                     self.CURRENT_ROUND.TARGET.AddIndex()
+            
+            elif ROW[1] == "hero_spawn":
+                PLAYER = Player(ROW[3], ROW[4], ROW[5])
+                NICK = str(ROW[4])
+                self.PLAYERS[NICK] = PLAYER
+            elif ROW[1] == "kill":
+                PLAYER = self.PLAYERS[ROW[4]]
+                PLAYER.Kill(ROW)
+
 
         print("Arquivo lido com sucesso!")
         print("="*50)
@@ -95,6 +105,12 @@ class Match:
         for r in self.ROUND_LIST: 
             print(r)
         print("="*50)
+
+        print("\nDETALHES DOS PLAYERS:")
+        for i in self.PLAYERS.values():
+            print("="*50)
+            print(i)
+        
 
 
 # -------------------------------------------------------------------------------------------

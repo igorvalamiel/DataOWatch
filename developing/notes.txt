@@ -15,9 +15,10 @@ EVENTS CLASSIFICATION
 
     
     Class Player:
-        - hero_spawn
+        - hero_spawn ✔
             [inspector_timestamp],event_type,match_current_time,player_team,player_name,spawned_hero,previous_hero,time_on_previous_hero
         - kill
+            [inspector_timestamp],event_type,match_current_time,attacker_team,attacker_name,attacker_hero,victim_team,victim_name,victim_hero,ability,damage,is_critical,is_environmental
         - defensive_assist
         - offensive_assist
         - mercy_rez
@@ -25,7 +26,8 @@ EVENTS CLASSIFICATION
         - ultimate_start
         - ultimate_end
         - player_stat
-            obs: quando alguem troca de personagem ele lança um "player_stat" de novo com a mudança
+            [inspector_timestamp],event_type,match_current_time,match_round,player_team,player_name,hero_name,eliminations,final_blows,deaths,all_damage_dealt,barrier_damage_dealt,hero_damage_dealt,healing_dealt,healing_received,self_healing,damage_taken,damage_blocked,defensive_assists,offensive_assists,ultimates_earned,ultimates_used,multikill_best,multikills,solo_kills,objective_kills,environmental_kills,environmental_deaths,critical_hits,critical_hit_accuracy,scoped_accuracy,scoped_critical_hit_accuracy,scoped_critical_hit_kills,shots_fired,shots_hit,shots_missed,scoped_shots,scoped_hits,weapon_accuracy,time_played_on_hero
+                obs: quando alguem troca de personagem ele lança um "player_stat" de novo com a mudança
 
 
     Class KillFeed:
@@ -34,12 +36,12 @@ EVENTS CLASSIFICATION
         - defensive_assist
 
     Progress:
-        - setup_complete
+        - setup_complete ✔
             [inspector_timestamp],event_type,match_current_time,match_round,match_time
                 Isso aqui eu vou usar para iniciar a partida
-        - payload_progress
+        - payload_progress ✔
             [inspector_timestamp],event_type,match_current_time,match_round,attacking_team,objective_index,payload_progress_percentage
-        - objective_updated
+        - objective_updated ✔
             [inspector_timestamp],event_type,match_current_time,match_round,previous_objective_index,new_objective_index
-        - objective_captured
+        - objective_captured ✔
             [inspector_timestamp],event_type,match_current_time,match_round,capturing_team,objective_index,control_percentage_team_1,control_percentage_team_2,match_time
