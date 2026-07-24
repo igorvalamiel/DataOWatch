@@ -44,6 +44,8 @@ class Match:
             elif ROW[1] == "round_end":
                 self.CURRENT_ROUND.EndRound(ROW)
                 self.ROUND_LIST.append(self.CURRENT_ROUND)
+                PLAYER = self.PLAYERS[ROW[4]]
+                PLAYER.CloseRound(ROW[2])
             elif ROW[1] == "payload_progress":
                 if self.CURRENT_ROUND:
                     self.CURRENT_ROUND.TARGET.UpdateProgress(ROW[3])
@@ -63,16 +65,16 @@ class Match:
                 PLAYER.Kill(ROW)
             elif ROW[1] == "defensive_assist":
                 PLAYER = self.PLAYERS[ROW[4]]
-                PLAYER.AddDefAssist()
+                PLAYER.AddDefAssist(ROW[5], ROW[2])
             elif ROW[1] == "offensive_assist":
                 PLAYER = self.PLAYERS[ROW[4]]
-                PLAYER.AddOffenAssist()
+                PLAYER.AddOffenAssist(ROW[5], ROW[2])
 
             # ONly if Mercy
             elif ROW[1] == "mercy_rez":
                 if ROW[5] != "Mercy": raise "Esse herói não pode ressucitar outro."
                 PLAYER = self.PLAYERS[ROW[4]]
-                PLAYER.MercyRez(ROW[7], ROW[8])
+                PLAYER.MercyRez(ROW[7], ROW[8], ROW[2])
 
 
         print("Arquivo lido com sucesso!")
